@@ -1800,12 +1800,17 @@ header .logo a {
 	overflow: hidden;
 }
 #portfolio .folio-item img {
-	vertical-align: middle;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
+	margin-bottom: 2rem;
+	width: 65%;
+	height: 65%;
+}
+#portfolio .folio-item iframe{
+	margin-bottom: 2rem;
+}
+
+#portfolio .folio-image{
+	justify-content: center;
+	display: flex;
 }
 
 #portfolio .overlay {
@@ -1840,6 +1845,12 @@ header .logo a {
 	left: -100%;
 }
 
+#portfolio .folio-item h2 {
+	margin-top: 2rem;
+	color: #FF0077;
+	text-align: center;
+}
+
 #portfolio .folio-title {
 	color: #FFFFFF;
 	font-size: 3.3rem;
@@ -1860,11 +1871,6 @@ header .logo a {
 }
 #portfolio .folio-item:hover .folio-item-cell {
 	left: 0;
-}
-#portfolio .folio-item:hover img {
-	-webkit-transform: scale(1.05);
-	-ms-transform: scale(1.05);
-	transform: scale(1.05);
 }
 
 /**
