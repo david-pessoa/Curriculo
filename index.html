@@ -40,21 +40,21 @@
    	<div class="row">
 
    		<div class="top-bar">
-   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+			<div style="display: flex; justify-content: center; align-items: center;">
+   				<a class="menu-toggle" href="#"><span>Menu</span></a>
 
-	   		<div class="logo">
-		         <a href="#">MENU</a>
-		      </div>		      
+	   			<div class="logo">
+		    	     <a href="#">MENU</a>
+		    	  </div>
+			</div>	      
 
 		   	<nav id="main-nav-wrap">
 					<ul class="main-navigation">
-						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
-						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
-						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
-						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
-						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
-						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
-						<li><a href="styles.html" title="">Style Demo</a></li>				
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Página Inicial</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">Sobre mim</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Currículo</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Projetos</a></li>					
+						<li><a class="smoothscroll"  href="#contact" title="">Contato</a></li>			
 					</ul>
 				</nav>    		
    		</div> <!-- /top-bar --> 
@@ -271,11 +271,11 @@
 				   	<strong>Java</strong>
 				   </li>
 				   <li>
-				   	<div class="progress percent95"><span>95%</span></div>
+				   	<div class="progress percent70"><span>70%</span></div>
 				   	<strong>AWS Cloud</strong>
 				   </li>
 				   <li>
-				   	<div class="progress percent75"><span>75%</span></div>
+				   	<div class="progress percent60"><span>60%</span></div>
 				   	<strong>Docker</strong>
 				   </li>
 				   <li>
@@ -288,27 +288,27 @@
 		<div class="col-six tab-full">
 				<ul class="skill-bars">
 				   <li>
-				   	<div class="progress percent90"><span>90%</span></div>
+				   	<div class="progress percent80"><span>80%</span></div>
 				   	<strong>Django</strong>
 				   </li>
 				   <li>
-				   	<div class="progress percent85"><span>85%</span></div>
+				   	<div class="progress percent90"><span>90%</span></div>
 				   	<strong>HTML</strong>
 				   </li>
 				   <li>
-				   	<div class="progress percent70"><span>70%</span></div>
+				   	<div class="progress percent80"><span>80%</span></div>
 				   	<strong>CSS</strong>
 				   </li>
 				   <li>
-				   	<div class="progress percent95"><span>95%</span></div>
+				   	<div class="progress percent70"><span>70%</span></div>
 				   	<strong>Javascript</strong>
 				   </li>
 				   <li>
-				   	<div class="progress percent75"><span>75%</span></div>
+				   	<div class="progress percent80"><span>80%</span></div>
 				   	<strong>Arduino know-how</strong>
 				   </li>
 				   <li>
-				   	<div class="progress percent75"><span>75%</span></div>
+				   	<div class="progress percent85"><span>85%</span></div>
 				   	<strong>Inglês</strong>
 				   </li>
 				</ul> <!-- /skill-bars -->		
@@ -353,7 +353,7 @@
 				<div class="folio-image">
 					<img src="images/portfolio/estacao-meteorologica.png" alt="Estação Meteorológica">
 				</div>
-				<p> <a href="http://3.149.124.111/">Clique aqui para visualizar o projeto da Estação Meteorológica!</a></p>
+				<p>A fim de desenvolver minhas habilidades com o framework do Django do Python (e um pouco de front-end também), resolvi criar esta aplicação que obtém os dados da estação meteorológica da cidade selecionada e os exibem na tela. Os dados são obtidos da a partir da <a href="https://www.weatherapi.com/">WeatherAPI</a>. <a href="http://3.149.124.111/">Clique aqui para visualizar o projeto da Estação Meteorológica!</a></p>
 			</div>
 
 			<div class="folio-item">
@@ -361,7 +361,7 @@
 				<div class="folio-image">
 					<img src="images/portfolio/banco-django.png" alt="Banco do Django">
 				</div>
-				<p>A fim de desenvolver minhas habilidades com o framework do Django do Python (e um pouco de front-end também), resolvi criar uma aplicação web que simula um banco. Nessa aplicação, o usuário pode criar um cadastro e acessar sua conta para realizar saques, depósitos e até transferências por PIX que podem ser consultadas no histórico de transações. <a href="#">Clique aqui para visualizar o projeto Banco do Django!</a></p>
+				<p>Assim como o projeto da Estação Meteorológica, este é mais outro projeto meu para me aprimorar no framework Django e no front-end. Nessa aplicação, o usuário pode criar um cadastro e acessar sua conta para realizar saques, depósitos e até transferências por PIX que podem ser consultadas no histórico de transações. <a href="#">Clique aqui para visualizar o projeto Banco do Django!</a></p>
 			</div>
 
 			<div class="folio-item">
@@ -375,7 +375,7 @@
 			<div class="folio-item">
 				<h2>Estacionamento Automatizado</h2>
 				<div class="folio-image">
-					<iframe width="650" height="367" src="https://www.youtube.com/embed/gnP4jFrD204?si=3ct6s9UI4jSX0j22" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					<iframe class="fluid-video-wrapper" width="650" height="367" src="https://www.youtube.com/embed/gnP4jFrD204?si=3ct6s9UI4jSX0j22" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 				</div>
 				<p>No último ano do curso de eletrônica no Liceu (2020), construí uma maquete de um estacionamento automatizado como Trabalho de Conclusão de Curso (TCC). A maquete consistia num estacionamento em que os sensores de luminosidade colocados nas vagas detectavam a presença de um carro através da mudança de luminosidade sobre os mesmos. Assim, era possível sinalizar se a vaga estava disponível pela cor verde, ou se estava ocupada pela cor vermelha do LED da respectiva vaga. Além disso, o projeto conta com sensores de radiofrequência para detectar as "tags" usadas pelos idosos, que são uma maneira de prevenir que as vagas especiais sejam indevidamente ocupadas. Assista ao vídeo.</p>
 			</div>
@@ -398,8 +398,6 @@
    			<h5>Certificados</h5>
    			<h1>Meus Certificados</h1>
 
-   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
-
    		</div>   		
    	</div> <!-- /section-intro -->
 
@@ -409,213 +407,56 @@
 
 	      	<div class="service">	
 
-	      		<span class="icon"><i class="icon-earth"></i></span>            
+				<h3>Certificado do curso de Programação em Python com Django</h3>
 
-	            <div class="service-content">	
-
-	            	 <h3>Webdesign</h3>
-
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	         		</p>
-	         		
-	         	</div> 	         	 
+	      		<span class="icon"><img src="images/certificados/Foto do certificado do curso de django.jpg" alt="Certificado Curso de Django"></span>            
+	         	 
 
 				</div> <!-- /service -->
 
-				<div class="service">	
+				<div class="service">
 
-					<span class="icon"><i class="icon-window"></i></span>                          
+					<h3>Certificado do curso de IA para Todos (Movimento IA Brasil)</h3>
 
-	            <div class="service-content">	
-
-	            	<h3>Web Development</h3>  
-
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	         		</p>
-
-	            </div>	                          
+					<span class="icon"><img src="images/certificados/Certificado-IA-para-todos.avif" alt="Certificado-IA-para-todos"></span>                          	                          
 
 			   </div> <!-- /service -->
 
 			   <div class="service">
 
-			   	<span class="icon"><i class="icon-paint-brush"></i></span>		            
+				<h3>Certificado do curso de Residência de Software do Mackleaps</h3>
 
-	            <div class="service-content">
-
-	            	<h3>Branding</h3>
-
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	        			</p> 
-
-	            </div> 	            	               
+			   	<span class="icon"><img src="images/certificados/Certificado-Mackleaps.avif" alt="Certificado Mackleaps"></span>		            	            	               
 
 			   </div> <!-- /service -->
 
 				<div class="service">
 
-					<span class="icon"><i class="icon-toggles"></i></span>	              
+					<h3>Certificado de Conclusão do Programa Santander X Explorer</h3>
 
-	            <div class="service-content">
-
-	            	<h3>UI/UX Design</h3>
-
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	         		</p> 
-	         		
-	            </div>                
+					<span class="icon">
+						<img src="images/certificados/Certificado-Explorer.avif" alt="Certificado Santander Explorer">
+					</span>	
+					
+					<p>Link: <a href="https://lms.explorerbyx.org/pt/certs/180a733c/472b741a/PIIC9ZP86oYrq4nkJf02EAmbN7n2">https://lms.explorerbyx.org/pt/certs/180a733c/472b741a/PIIC9ZP86oYrq4nkJf02EAmbN7n2</a></p>
 
 				</div> <!-- /service -->
 
 			   <div class="service">
 
-			   	<span class="icon"><i class="icon-image"></i></span>	            
+				<h3>Certificado de Monitoria em Algoritmos e Programação II</h3>
 
-	            <div class="service-content">
-
-	            	<h3>Graphics Design</h3>
-
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	        			</p> 
-
-	            </div>	               
+			   	<span class="icon"><img src="images/certificados/Certificado Monitoria 2023-2 - David Varão Lima Be_240427_114930.jpg" alt="Certificado Monitoria"></span>	            	               
 
 			   </div> <!-- /service -->
 
-			   <div class="service">
-
-			   	<span class="icon"><i class="icon-chat"></i></span>	   	           
-
-	            <div class="service-content">
-
-	            	 <h3>Consultancy</h3>
-
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	        			</p> 
-	        			
-	            </div>	               
-
-			   </div> <!-- /service -->
+			   <div class="service"> <!-- /service -->
 
 	      </div> <!-- /services-list -->
    		
    	</div> <!-- /services-content -->
 		
 	</section> <!-- /services -->	
-
-
-	<!-- stats Section
-   ================================================== -->
-	<section id="stats" class="count-up">
-
-		<div class="row">
-			<div class="col-twelve">
-
-				<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
-
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-pencil-ruler"></i>
-						</div>
-
-						<h3 class="stat-count">
-							1500
-						</h3>
-
-						<h5 class="stat-title">
-							Projects Completed
-						</h5>
-
-					</div> <!-- /stat -->					
-
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-users"></i>
-						</div>
-
-						<h3 class="stat-count">
-							900
-						</h3>
-
-						<h5 class="stat-title">
-							Happy Clients
-						</h5>
-
-					</div> <!-- /stat -->
-
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-badge"></i>
-						</div>
-
-						<h3 class="stat-count">
-							200
-						</h3>
-
-						<h5 class="stat-title">
-							Awards Received
-						</h5>
-
-					</div> <!-- /stat -->									
-
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-light-bulb"></i>
-						</div>
-
-						<h3 class="stat-count">
-							120
-						</h3>
-
-						<h5 class="stat-title">
-							Crazy Ideas
-						</h5>
-
-					</div> <!-- /stat -->
-
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-cup"></i>
-						</div>
-
-						<h3 class="stat-count">
-							1500
-						</h3>
-
-						<h5 class="stat-title">
-							Coffee Cups
-						</h5>
-
-					</div> <!-- /stat -->
-
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-clock"></i>
-						</div>
-
-						<h3 class="stat-count">
-							7200
-						</h3>
-
-						<h5 class="stat-title">
-							Hours
-						</h5>
-
-					</div> <!-- /stat -->
-
-				</div> <!-- /stats-list -->
-
-			</div> <!-- /twelve -->
-		</div> <!-- /row -->
-
-	</section> <!-- /stats -->
-
 	
    <!-- contact
    ================================================== -->
@@ -624,105 +465,59 @@
 		<div class="row section-intro">
    		<div class="col-twelve">
 
-   			<h5>Contact</h5>
-   			<h1>I'd Love To Hear From You.</h1>
-
-   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+   			<h5>Contato</h5>
+   			<h1>Entre em contato comigo!</h1>
 
    		</div> 
    	</div> <!-- /section-intro -->
 
-   	<div class="row contact-form">
-
-   		<div class="col-twelve">
-
-            <!-- form -->
-            <form name="contactForm" id="contactForm" method="post" action="">
-      			<fieldset>
-
-                  <div class="form-field">
- 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
-                  </div>
-                  <div class="form-field">
-	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
-	               </div>
-                  <div class="form-field">
-	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-	               </div>                       
-                  <div class="form-field">
-	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	               </div>                      
-                 <div class="form-field">
-                     <button class="submitform">Submit</button>
-                     <div id="submit-loader">
-                        <div class="text-loader">Sending...</div>                             
-       				      <div class="s-loader">
-								  	<div class="bounce1"></div>
-								  	<div class="bounce2"></div>
-								  	<div class="bounce3"></div>
-								</div>
-							</div>
-                  </div>
-
-      			</fieldset>
-      		</form> <!-- Form End -->
-
-            <!-- contact-warning -->
-            <div id="message-warning">            	
-            </div>            
-            <!-- contact-success -->
-      		<div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-      		</div>
-
-         </div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /contact-form -->
-
    	<div class="row contact-info">
 
-   		<div class="col-four tab-full">
+   		<div class="col-three tab-full">
 
    			<div class="icon">
-   				<i class="icon-pin"></i>
+   				<a href="mailto:davidpessoa.profissional@gmail.com"><i class="fa fa-envelope fa-1x"></i></a>
    			</div>
 
-   			<h5>Where to find me</h5>
+   			<h5>Email</h5>
 
-   			<p>
-            1600 Amphitheatre Parkway<br>
-            Mountain View, CA<br>
-            94043 US
-            </p>
+   			<p>davidpessoa.profissional@gmail.com</p>
 
    		</div>
 
-   		<div class="col-four tab-full collapse">
+   		<div class="col-three tab-full collapse">
 
    			<div class="icon">
-   				<i class="icon-mail"></i>
+   				<a href="https://www.linkedin.com/in/david-varao-lima-bentes-pessoa/"><i class="fab fa-linkedin fa-1x"></i></a>
    			</div>
 
-   			<h5>Email Me At</h5>
+   			<h5>LinkedIn</h5>
 
-   			<p>someone@kardswebsite.com<br>
-			   	info@kardswebsite.com			     
-			   </p>
+   			<p>David Varão Lima Bentes Pessoa</p>
 
    		</div>
 
-   		<div class="col-four tab-full">
+   		<div class="col-three tab-full collapse">
 
    			<div class="icon">
-   				<i class="icon-phone"></i>
+   				<a href="https://api.whatsapp.com/send?phone=5511947480925&text=Ol%C3%A1%2C%20David%21"><i class="fab fa-whatsapp fa-1x"></i></a>
    			</div>
 
-   			<h5>Call Me At</h5>
+   			<h5>WhatsApp</h5>
 
-   			<p>Phone: (+63) 555 1212<br>
-			   	Mobile: (+63) 555 0100<br>
-			     	Fax: (+63) 555 0101
-			   </p>
+   			<p>Celular: (11) 94748 0925</p>
+
+   		</div>
+
+		<div class="col-three tab-full collapse">
+
+   			<div class="icon">
+   				<a href="https://github.com/david-pessoa"><i class="fab fa-github fa-1x"></i></a>
+   			</div>
+
+   			<h5>GitHub</h5>
+
+   			<p>Usuário: david-pessoa</p>
 
    		</div>
    		
@@ -736,18 +531,6 @@
 
    <footer>
      	<div class="row">
-
-     		<div class="col-six tab-full pull-right social">
-
-     			<ul class="footer-social">        
-			      <li><a href="https://www.linkedin.com/in/david-varao-lima-bentes-pessoa/"><i class="fab fa-linkedin fa-1x"></i></a></li>
-         			<li><a href="https://api.whatsapp.com/send?phone=5511947480925&text=Ol%C3%A1%2C%20David%21"><i class="fab fa-whatsapp fa-1x"></i></a></li>
-         			<li><a href="mailto:davidpessoa.profissional@gmail.com"><i class="fa fa-envelope fa-1x"></i></a></li>
-         			<li><a href="https://github.com/david-pessoa"><i class="fab fa-github fa-1x"></i></a></li>
-			   </ul> 
-	      		
-	      </div>
-
       	<div class="col-six tab-full">
 	      	<div id="go-top">
 		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>

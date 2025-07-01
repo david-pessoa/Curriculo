@@ -1096,8 +1096,7 @@ header .row {
 header .top-bar {
 	display: block;
 	background: #000000;
-	min-width: 220px;
-	min-height: 66px;
+	padding-bottom: 10px;
 	position: absolute;
 	left: 90px;
 	top: 0;
@@ -1105,22 +1104,19 @@ header .top-bar {
 header .logo {
 	float: left;
 	margin-left: 20px;
-	margin-right: 50px;
-	margin-top: 25px;
+	margin-right: 30px;
+	padding-top: 10px;
 	position: relative;
 }
 header .logo a {
+	color: #FFF;
 	display: block;
 	margin: 0;
 	padding: 0;
 	border: none;
-	font: 0/0 a;
+	font-family: "poppins-bold", sans-serif;
+	font-size: 2.2rem;
 	text-shadow: none;
-	color: transparent;
-	width: 92px;
-	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
-	background-size: 92px 15px;
 }
 
 /**
@@ -1132,7 +1128,7 @@ header .logo a {
 	width: 40px;
 	height: 40px;
 	margin-left: 20px;
-	margin-top: 13px;
+	padding-top: 10px;
 	display: block;
 	position: relative;
 }
@@ -2148,9 +2144,16 @@ header .logo a {
 	display: inline-block;
 	margin-bottom: 2.1rem;
 }
-.services-list .icon i {
+
+.service a{
+	color:#cc005f;
+}
+
+.services-list .icon img {
 	font-size: 5.4rem;
 	color: #FF0077;
+	height: 400px;
+	width: auto;
 }
 .services-list h3 {
 	color: #FFFFFF;
@@ -2432,6 +2435,15 @@ header .logo a {
 }
 .contact-info h5 {
 	color: #FF0077;
+}
+
+.icon a i{
+	color: #FFF;
+	transition: all 0.3s ease-in-out;
+}
+
+.icon a:hover i, .icon a:focus i, .icon a:active i{
+	color: #cc005f;
 }
 
 /**

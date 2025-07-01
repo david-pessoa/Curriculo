@@ -54,9 +54,9 @@
         itemsCustom : [
 	        [0, 1],
 	        [700, 2],
-	        [960, 3]
 	     ],
-        navigationText: false
+        navigationText: false,
+		autoHeight: true
     });
 
 
