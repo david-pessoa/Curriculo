@@ -1520,15 +1520,14 @@ header .logo a {
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 9rem;
-	width: 9rem;
+	height: 15rem;
+	width: 15rem;
 	border-radius: 50%;
-	margin: .9rem 0 0 0;
+	margin: -2rem 3rem 0 0;
 	float: left;
 }
 .intro-info .lead {
 	text-align: left;
-	padding-left: 13rem;
 }
 
 .about-content {
@@ -1593,11 +1592,8 @@ header .logo a {
 }
 @media only screen and (max-width:768px) {
 	.intro-info img {
-		height: 7.8rem;
-		width: 7.8rem;
-	}
-	.intro-info .lead {
-		padding-left: 11rem;
+		height: 13rem;
+		width: 13rem;
 	}
 	.about-content h3 {
 		text-align: center;
@@ -1619,8 +1615,8 @@ header .logo a {
 		margin-top: 3rem;
 	}
 	.intro-info img {
-		height: 6.6rem;
-		width: 6.6rem;
+		height: 13rem;
+		width: 13rem;
 		float: none;
 		display: inline-block;
 	}
@@ -1692,7 +1688,7 @@ header .logo a {
 #resume .timeline-header {
 	float: left;
 	width: 35%;
-	padding-right: 90px;
+	padding-right: 30px;
 	text-align: right;
 }
 #resume .timeline-header h3 {
@@ -1818,7 +1814,6 @@ header .logo a {
 #portfolio .folio-item img {
 	margin-bottom: 2rem;
 	width: 65%;
-	height: 65%;
 }
 #portfolio .folio-item iframe{
 	margin-bottom: 2rem;
@@ -1898,12 +1893,32 @@ header .logo a {
 	#portfolio .folio-title {
 		font-size: 3.1rem;
 	}
+
+	#portfolio .folio-item img {
+	margin-bottom: 2rem;
+	width: 80%;
+	}
 }
 @media only screen and (max-width:768px) {
 	#portfolio .folio-title {
 		font-size: 2.5rem;
 	}
+	#portfolio .folio-item img {
+	margin-bottom: 2rem;
+	width: 80%;
+	}
 }
+
+@media only screen and (max-width:700px) {
+	#portfolio .folio-title {
+		font-size: 2.5rem;
+	}
+	#portfolio .folio-item img {
+	margin-bottom: 2rem;
+	width: 100%;
+	}
+}
+
 @media only screen and (max-width:400px) {
 	#portfolio .folio-title {
 		font-size: 2.2rem;
