@@ -2458,6 +2458,11 @@ header .logo a {
 	font-size: 1.5rem;
 	text-align: center;
 }
+
+.contact-info .col-three{
+	padding: 0 0;
+}
+
 .contact-info .collapse {
 	padding: 0;
 }
