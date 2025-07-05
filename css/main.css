@@ -20,7 +20,7 @@
  *  12. resume
  *  13. portfolio
  *  14. call-to-action section
- *  15. services
+ *  15. certificate
  *  16. stats
  *  17. contact
  *  18. footer
@@ -2127,11 +2127,11 @@ header .logo a {
 
 /** 
  * ===================================================================
- * 15. services - (_layout.scss)
+ * 15. certificate - (_layout.scss)
  *
  * ------------------------------------------------------------------- 
  */
-#services {
+#certificate {
 	background: #313131 url(../images/bg.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -2141,7 +2141,7 @@ header .logo a {
 	color: white;
 	position: relative;
 }
-#services .overlay {
+#certificate .overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -2151,31 +2151,31 @@ header .logo a {
 	opacity: .9;
 }
 
-#services .section-intro {
+#certificate .section-intro {
 	margin-bottom: 1.8rem;
 }
 
-#services .section-intro h1 {
+#certificate .section-intro h1 {
 	color: white;
 }
-#services .section-intro h5 {
+#certificate .section-intro h5 {
 	color: var(--blue);
 }
-#services .section-intro p {
+#certificate .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
 }
-.services-content {
+.certificate-content {
 	max-width: 1200px;
 }
-.services-list {
+.certificate-list {
 	margin-top: 1.2rem;
 	text-align: center;
 }
-.services-list .service {
+.certificate-list .service {
 	margin-bottom: 1.2rem;
 	padding: 0 30px;
 }
-.services-list .icon {
+.certificate-list .icon {
 	display: inline-block;
 	margin-bottom: 2.1rem;
 }
@@ -2184,16 +2184,16 @@ header .logo a {
 	color:var(--dark-blue);
 }
 
-.services-list .icon img {
+.certificate-list .icon img {
 	font-size: 5.4rem;
 	color: var(--blue);
 	height: 400px;
 	width: auto;
 }
-.services-list h3 {
+.certificate-list h3 {
 	color: #FFFFFF;
 }
-.services-list .desc {
+.certificate-list .desc {
 	color: rgba(255, 255, 255, 0.6);
 }
 
