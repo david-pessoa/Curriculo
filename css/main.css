@@ -1838,6 +1838,10 @@ header nav ul li .language:hover {
   bottom: 0;
 }
 
+#resume .timeline-content p {
+  text-align: justify;
+}
+
 /**
  * responsive:
  * resume
@@ -1931,6 +1935,9 @@ header nav ul li .language:hover {
   padding: 0;
   position: relative;
   overflow: hidden;
+}
+#portfolio .folio-item p {
+  text-align: justify;
 }
 #portfolio .folio-item img {
   margin-bottom: 2rem;
