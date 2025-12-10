@@ -1,0 +1,20 @@
+{
+  "menu": {
+    "home": "Página Inicial",
+    "about": "Sobre mim",
+    "resume": "Currículo",
+    "projects": "Projetos",
+    "certificates": "Certificados",
+    "contact": "Contato"
+  },
+  "intro": {
+    "title": "Sou David Pessoa",
+    "job1": "Desenvolvedor de Software",
+    "job2": "Cientista da Computação",
+    "button": "Mais sobre mim"
+  },
+  "about": {
+    "subTitle": "Sobre mim",
+    "title": "Deixe-me introduzir"
+  }
+}
