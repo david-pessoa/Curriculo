@@ -1233,6 +1233,27 @@ header .logo a {
   text-shadow: none;
 }
 
+header nav ul #changelanguage {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  
+}
+
+header nav ul li .language {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li .language:hover {
+  color: var(--dark-blue)
+}
+
 /**
  * menu toggle - (_layout.css)
  * ------------------------------------------------------------------- 
@@ -1342,7 +1363,7 @@ header .logo a {
 /* dropdown nav */
 .main-navigation {
   background: #000000;
-  padding: 24px 30px 42px;
+  padding: 24px 30px 10px;
   margin: 0;
   width: 100%;
   height: auto;
