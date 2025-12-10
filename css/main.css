@@ -1646,7 +1646,7 @@ header nav ul li .language:hover {
   float: left;
 }
 .intro-info .lead {
-  text-align: left;
+  text-align: justify;
 }
 
 .about-content {
