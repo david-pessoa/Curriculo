@@ -1625,7 +1625,7 @@ header nav ul li .language:hover {
  * ------------------------------------------------------------------- 
  */
 #about {
-  background: #ffffff;
+  background: #fef9f3;
   padding-top: 12rem;
   padding-bottom: 15rem;
 }
@@ -1927,7 +1927,7 @@ header nav ul li .language:hover {
  * ------------------------------------------------------------------- 
  */
 #portfolio {
-  background: #ffffff;
+  background: #fef9f3;
   padding-top: 12rem;
   padding-bottom: 12rem;
 }
@@ -1950,6 +1950,9 @@ header nav ul li .language:hover {
 #portfolio .folio-image {
   justify-content: center;
   display: flex;
+}
+#portfolio .folio-image img {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.308);
 }
 
 #portfolio .overlay {
