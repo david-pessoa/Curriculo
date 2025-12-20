@@ -57,7 +57,7 @@
       "period": "Jan 2018 - Nov 2020",
       "institution": "Liceu de Artes e Ofícios de São Paulo",
       "degree": "Electronics Technical course integrated to high school",
-      "TCC": "Automated Parking Lot"
+      "TCC": "Automated Parking Lot (Capstone Project)"
     },
     "subTitleSkills": "Skills",
     "skills": {
@@ -98,7 +98,7 @@
     "title": "My Certificates",
     "carousel": {
       "django": "Certificate of Completion - Python Programming with Django",
-      "efset": " EF SET English Proficiency Certificate - C1",
+      "efset": "EF SET English Proficiency Certificate - C1",
       "IABrasil": "AI for EVERYONE Course Certificate",
       "mackleaps": "Certificate of Completion - Software Residence at Mackleaps",
       "santander": "Certificate of Completion - Santander X Explorer",

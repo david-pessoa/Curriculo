@@ -15,6 +15,108 @@
   },
   "about": {
     "subTitle": "Sobre mim",
-    "title": "Deixe-me introduzir"
+    "title": "Deixe-me introduzir",
+    "description": "Olá! Sou David Pessoa, desenvolvedor de software, formado em Ciências da Computação no Mackenzie e técnico em Eletrônica pelo Liceu de Artes e Ofícios de São Paulo.",
+    "aspirations": "Desejo atuar como engenheiro de software, aprimorando minhas habilidades em desenvolvimento de sites, softwares e aplicativos, ganhando experiência em arquitetura de softwares e gerenciamento de projetos."
+  },
+  "resume": {
+    "subTitleResume": "Currículo",
+    "title": "Minhas Experiências",
+    "subTitleProfXP": "Experiência Profissional",
+    "20DASH": {
+      "roleName": "Desenvolvedor Web",
+      "period": "Set 2025 - Presente",
+      "company": "20DASH",
+      "description": "Atualmente atuo como desenvolvedor web na empresa 20DASH. No back-end, colaboro no desenvolvimento de sistemas utilizando ferramentas como o AWS Lambda com o Chalice. Para integração e manipulação do banco de dados em PostgreSQL, utilizo as bibliotecas SQLAlchemy e Alembic. Já no front-end, contribuo no desenvolvimento de interfaces utilizando React.js."
+    },
+    "elevential": {
+      "roleName": "Desenvolvedor Web",
+      "period": "Nov 2024 - Jan 2025",
+      "company": "Elevential",
+      "description": "No meu estágio na empresa Elevential, auxiliei, como programador Python, a desenvolver um projeto utilizando o Django Framework para integração com o banco de dados PostgreSQL para gerenciamento da base de dados. Além disso, tive participação no desenvolvimento front-end com Javascript, utilizando o framework Bootstrap."
+    },
+    "mackleaps": {
+      "roleName": "Desenvolvedor Front-end",
+      "period": "Março 2023 - Nov 2023",
+      "company": "Mackleaps",
+      "description": "Durante o ano de 2023, trabalhei na Empresa Júnior Mackleaps como voluntário para desenvolver o front-end (utilizando HTML, CSS, Javascript e React.js) de uma aplicação web para exibição dos dados do clima e tempo no campus do Mackenzie."
+    },
+    "subTitleAcademicXP": "Formação Acadêmica",
+    "computerScience": {
+      "courseName": "Ciências da Computação",
+      "period": "Fev 2022 - Nov 2025",
+      "institution": "Universidade Presbiteriana Mackenzie",
+      "degree": "Bacharelado em Ciências da Computaçãoa",
+      "TCC": "Avaliação da performance de aplicação de LLM com RAG na resolução de questões do Direito Ambiental (TCC)",
+      "monitor": " Monitor na disciplina de Algoritmos e Programação II",
+      "research": "Pesquisa com tema ‟A study on the interaction of the elderly with digital games through usability and user experience evaluations” publicada no Centro Latino Americano de Estudios en Informática (CLEI). DOI: <a href='https://doi.org/10.19153/cleiej.27.1.4'>https://doi.org/10.19153/cleiej.27.1.4</a >",
+      "concierge": "Projeto Concierge"
+    },
+    "electronics": {
+      "courseName": "Electrônica",
+      "period": "Jan 2018 - Nov 2020",
+      "institution": "Liceu de Artes e Ofícios de São Paulo",
+      "degree": "Curso técnico em eletrônica integrado ao ensino médio",
+      "TCC": "Estacionamento Automatizado (TCC)"
+    },
+    "subTitleSkills": "Habilidades",
+    "skills": {
+      "english": "Inglês"
+    },
+    "downloadBtn": "<a href='CV-file/Curriculum_Vitae_David_Pessoa.pdf' title='Download CV' class='button button-primary'>Download CV</a>"
+  },
+  "portfolio": {
+    "subTitle": "Portfólio",
+    "title": "Meus Projetos",
+    "dentalClinic": {
+      "title": "Clínica Odontológica",
+      "description": "Desenvolvi um website utilizando Next.js como projeto da disciplina de Web Mobile. A aplicação inclui página inicial com apresentação dos serviços, avaliações de pacientes e perfis dos profissionais. Todo o site foi construído com foco em responsividade, garantindo boa experiência em diferentes tamanhos de tela e dispositivos."
+    },
+    "samsai": {
+      "title": "SamsAI",
+      "description": "Como TCC da minha graduação, desenvolvi, junto com meus amigos, uma aplicação utilizando o Django integrada ao modelo de Inteligência Artificial da empresa Maritaca AI, Sabiá-3, para auxiliar o poder Judiciário. A aplicação também é integrada ao RAG para fornecer contexto jurídico para o modelo, a fim de que ele consiga responder às perguntas dos usuários. O objetivo do projeto é fornecer a advogados ou juízes uma ferramenta que possa ajudá-los a lidar com o enorme volume de processos em tramitação e sua demora para serem resolvidos de modo a agilizar esses processos."
+    },
+    "weatherStation": {
+      "title": "Estação Meteorológica",
+      "description": "A fim de desenvolver minhas habilidades com o framework do Django do Python (e um pouco de front-end também), resolvi criar esta aplicação que obtém os dados da estação meteorológica da cidade selecionada e os exibem na tela. Os dados são obtidos da a partir da <a href='https://www.weatherapi.com/'>WeatherAPI</a>."
+    },
+    "bank": {
+      "title": "Banco do Django",
+      "description": "Assim como o projeto da Estação Meteorológica, este é mais outro projeto meu para me aprimorar no framework Django e no front-end. Nessa aplicação, o usuário pode criar um cadastro e acessar sua conta para realizar saques, depósitos e até transferências por PIX que podem ser consultadas no histórico de transações."
+    },
+    "concierge": {
+      "title": "O Concierge",
+      "description": "Durante o primeiro semestre do curso de ciências da computação no Mackenzie (2022), desenvolvi um carrinho de controle remoto controlado por um aplicativo mobile cujo objetivo era carregar objetos para seu usuário, a fim de poupar seus esforços. Nomei-o como Concierge, visto que este é o nome dado aos funcionários que possuem a função de carregar a bagagem dos hóspedes no hotel. Em sua parte superior, ele possui uma balança para fazer o controle do peso sobre o mesmo, o qual é indicado através de um display em sua parte frontal. O Concierge também indica se há peso em excesso."
+    },
+    "parkingLot": {
+      "title": "Estacionamento Automatizado",
+      "description": "No último ano do curso de eletrônica no Liceu (2020), construí uma maquete de um estacionamento automatizado como Trabalho de Conclusão de Curso (TCC). A maquete consistia num estacionamento em que os sensores de luminosidade colocados nas vagas detectavam a presença de um carro através da mudança de luminosidade sobre os mesmos. Assim, era possível sinalizar se a vaga estava disponível pela cor verde, ou se estava ocupada pela cor vermelha do LED da respectiva vaga. Além disso, o projeto conta com sensores de radiofrequência para detectar as “tags” usadas pelos idosos, que são uma maneira de prevenir que as vagas especiais sejam indevidamente ocupadas. Assista ao vídeo."
+    }
+  },
+  "certificates": {
+    "subTitle": "Certificados",
+    "title": "Meus Certificados",
+    "carousel": {
+      "django": "Certificado do curso de Programação em Python com Django",
+      "efset": "Certificado de Proficiência Eficaz C1 em Inglês EF SET",
+      "IABrasil": "Certificado do curso de IA para Todos (Movimento IA Brasil)",
+      "mackleaps": "Certificado do curso de Residência de Software do Mackleaps",
+      "santander": "Certificado de Conclusão do Programa Santander X Explorer",
+      "monitoria": "Certificado de Monitoria em Algoritmos e Programação II"
+    }
+  },
+  "contact": {
+    "subTitle": "Contato",
+    "title": "Entre em contato comigo!",
+    "details": {
+      "whatsapp": {
+        "title": "WhatsApp",
+        "info": "Celular: (11) 94748 0925"
+      },
+      "github": {
+        "title": "GitHub",
+        "info": "Usuário: david-pessoa"
+      }
+    }
   }
 }
