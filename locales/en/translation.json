@@ -64,5 +64,59 @@
       "english": "English"
     },
     "downloadBtn": "<a href='CV-file/Resume_David_Pessoa.pdf' title='Download CV' class='button button-primary'>Download CV</a>"
+  }, 
+  "portfolio": {
+    "subTitle": "Portfolio",
+    "title": "My Projects",
+    "dentalClinic": {
+      "title": "Dental Clinic Website",
+      "description": "I developed a website using Next.js as part of a Web and Mobile Development course project. The application includes a homepage presenting the clinic’s services, patient reviews, and profiles of dental professionals. The entire website was built with a strong focus on responsiveness, ensuring a good user experience across different screen sizes and devices."
+    },
+    "samsai": {
+      "title": "SamsAI",
+      "description": "As my undergraduate capstone project, I developed, together with my colleagues, an application using Django and integrated with Maritaca AI’s Sabiá-3 artificial intelligence model to support the Judiciary. The application is also integrated with a Retrieval Augmented Generation (RAG) system to provide legal context to the model, enabling it to answer users’ questions. The project aims to provide lawyers and judges with a tool to help them handle the large volume of ongoing cases and reduce delays in case resolution, thereby streamlining judicial processes"
+    },
+    "weatherStation": {
+      "title": "Weather Station",
+      "description": "In order to develop my skills with the Django framework in Python (as well as some front-end skills), I decided to create this application, which retrieves data from the weather station of a selected city and displays it on the screen. The data is obtained from <a href='https://www.weatherapi.com/'>WeatherAPI</a>." 
+    },
+    "bank": {
+      "title": "Bank of Django",
+      "description": "Like the Weather Station project, this is another personal project aimed at improving my skills with the Django framework and front-end development. In this application, users can create an account and log in to perform withdrawals, deposits, and even PIX transfers, which can be viewed in the transaction history."
+    },
+    "concierge": {
+      "title": "The Concierge",
+      "description": "During the first semester of the Computer Science program at Mackenzie (2022), I developed a remote-controlled cart operated via a mobile application. Its purpose was to carry objects for the user, reducing physical effort. I named it Concierge, inspired by the hotel staff responsible for carrying guests’ luggage. On its top, the cart features a scale to monitor the carried weight, which is displayed on a front-facing screen. The Concierge also indicates when the weight exceeds the allowed limit."
+    },
+    "parkingLot": {
+      "title": "Automated Parking Lot",
+      "description": "In the final year of the Electronics program at Liceu (2020), I built a scale model of an automated parking system as my capstone project. The model consisted of a parking lot in which light sensors installed in each parking space detected the presence of a vehicle through changes in light intensity. This allowed each space to be indicated as available (green LED) or occupied (red LED). In addition, the project included radio-frequency sensors to detect the tags used by elderly users, helping to prevent designated parking spaces from being improperly occupied. Watch the video."
+    }
+  },
+  "certificates": {
+    "subTitle": "Certificates",
+    "title": "My Certificates",
+    "carousel": {
+      "django": "Certificate of Completion - Python Programming with Django",
+      "efset": " EF SET English Proficiency Certificate - C1",
+      "IABrasil": "AI for EVERYONE Course Certificate",
+      "mackleaps": "Certificate of Completion - Software Residence at Mackleaps",
+      "santander": "Certificate of Completion - Santander X Explorer",
+      "monitoria": "Teaching Assistant on Algorithms and Programming II Certificate"
+    }
+  },
+  "contact": {
+    "subTitle": "Contact",
+    "title": "Feel free to contact me!",
+    "details": {
+      "whatsapp": {
+        "title": "WhatsApp",
+        "info": "Cellphone: +55 (11) 94748 0925"
+      },
+      "github": {
+        "title": "GitHub",
+        "info": "User: david-pessoa"
+      }
+    }
   }
 }
