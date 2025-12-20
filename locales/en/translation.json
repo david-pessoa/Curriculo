@@ -15,6 +15,54 @@
   },
   "about": {
     "subTitle": "About me",
-    "title": "Let me introduce myself"
+    "title": "Let me introduce myself",
+    "description": "Hello! I'm David Pessoa, Software Developer, Computer Science graduate from Mackenzie Presbyterian University and Electronics Technician from Liceu de Artes e Ofícios de São Paulo.",
+    "aspirations": "I aim to work as a Software Engineer, improving my skills in web, software and mobile applications, while gaining experience in software architecture, project management."
+  },
+  "resume": {
+    "subTitleResume": "Resume",
+    "title": "My Experiences",
+    "subTitleProfXP": "Professional Experience",
+    "20DASH": {
+      "roleName": "Web Developer",
+      "period": "Sep 2025 - Present",
+      "company": "20DASH",
+      "description": "I currently work as a web developer at 20DASH, contributing to both back-end and front-end development. On the back-end, I collaborate on system development using tools such as AWS Lambda and Chalice. For integrations and PostgreSQL database manipulation, I use libraries like SQLAlchemy and Alembic. On the front-end, I develop user interfaces using React.js"
+    },
+    "elevential": {
+      "roleName": "Web Developer",
+      "period": "Nov 2024 - Jan 2025",
+      "company": "Elevential",
+      "description": "During my internship at Elevential, I worked as a Python programmer contributing to a project with Django framework and integrated with a PostgreSQL database for database management. Additionally, I contributed to front-end development using Javascript and the Bootstrap framework"
+    },
+    "mackleaps": {
+      "roleName": "Front-end Developer",
+      "period": "March 2023 - Nov 2023",
+      "company": "Mackleaps",
+      "description": "In 2023, I worked as a volunteer at Mackleaps Junior Company to develop the front-end (using HTML, CSS, Javascript and React.js) of a web application to display weather data from stations located on the Mackenzie campus"
+    },
+    "subTitleAcademicXP": "Academic Education",
+    "computerScience": {
+      "courseName": "Computer Science",
+      "period": "Feb 2022 - Nov 2025",
+      "institution": "Universidade Presbiteriana Mackenzie",
+      "degree": "Bachelor's Degree in Computer Science",
+      "TCC": "Performance evaluation of LLM-based with RAG application for answering Environmental Law questions (Bachelor’s Thesis)",
+      "monitor": "Teaching Assistant – Algorithms and Programming II",
+      "research": "A study on the interaction of the elderly with digital games through usability and user experience evaluations, published on Centro Latino Americano de Estudios en Informática (CLEI). DOI: <a href='https://doi.org/10.19153/cleiej.27.1.4'>https://doi.org/10.19153/cleiej.27.1.4</a>",
+      "concierge": "Concierge Project"
+    },
+    "electronics": {
+      "courseName": "Electronics",
+      "period": "Jan 2018 - Nov 2020",
+      "institution": "Liceu de Artes e Ofícios de São Paulo",
+      "degree": "Electronics Technical course integrated to high school",
+      "TCC": "Automated Parking Lot"
+    },
+    "subTitleSkills": "Skills",
+    "skills": {
+      "english": "English"
+    },
+    "downloadBtn": "<a href='CV-file/Resume_David_Pessoa.pdf' title='Download CV' class='button button-primary'>Download CV</a>"
   }
 }
