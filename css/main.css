@@ -1431,7 +1431,7 @@ header nav ul li .language:hover {
  * ------------------------------------------------------------------- 
  */
 #intro {
-  background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+  background: url(../images/intro-bg.avif) no-repeat center bottom;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -1450,7 +1450,7 @@ header nav ul li .language:hover {
   width: 100%;
   height: 100%;
   background: #111111;
-  opacity: 0.85;
+  opacity: 0.70;
 }
 
 .intro-content {
