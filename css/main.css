@@ -1238,7 +1238,6 @@ header nav ul #changelanguage {
   flex-direction: row;
   gap: 1rem;
   align-items: center;
-  
 }
 
 header nav ul li .language {
@@ -1250,8 +1249,14 @@ header nav ul li .language {
   margin: 0;
 }
 
+header nav ul li .language.active {
+  color: var(--dark-blue);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 header nav ul li .language:hover {
-  color: var(--dark-blue)
+  color: var(--dark-blue);
 }
 
 /**
