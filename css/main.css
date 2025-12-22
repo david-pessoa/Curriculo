@@ -1776,6 +1776,10 @@ header nav ul li .language:hover {
   justify-content: center;
   gap: 2rem;
 }
+#resume .resume-header .soft-skills-list ul h4 {
+  margin-top: 0.7rem;
+  margin-bottom: 0.6rem;
+}
 #resume .resume-header .soft-skills-list ul li {
   width: 22%;
   height: 18rem;
@@ -1783,8 +1787,8 @@ header nav ul li .language:hover {
   background-color: #fff;
   box-shadow: #00000062 5px 5px 10px;
 }
-#resume .resume-header .soft-skills-list ul li span {
-  text-align: justify;
+#resume .resume-header .soft-skills-list ul li p {
+  text-align: center;
 }
 
 #resume .resume-header .skills-icons ul {
@@ -1896,6 +1900,13 @@ header nav ul li .language:hover {
     padding-left: 50px;
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  #resume .resume-header .soft-skills-list ul li h4 {
+    font-size: 1.3rem;
+    margin-bottom: 0.4rem;
+  }
+}
 @media only screen and (max-width: 768px) {
   #resume .timeline-wrap::before {
     left: 2.4rem;
@@ -1932,6 +1943,14 @@ header nav ul li .language:hover {
   #resume .timeline-header,
   #resume .timeline-content {
     padding-left: 7rem;
+  }
+  #resume .resume-header .soft-skills-list ul li {
+    width: 132px;
+    height: 13rem;
+  }
+  #resume .resume-header .soft-skills-list ul li p {
+    font-size: 1.2rem;
+    line-height: 2rem;
   }
   #resume .resume-header .skills-icons ul {
     gap: 1.2rem;
