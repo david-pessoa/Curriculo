@@ -60,8 +60,23 @@
       "TCC": "Automated Parking Lot (Capstone Project)"
     },
     "subTitleSkills": "Skills",
-    "skills": {
-      "english": "English"
+    "softSkills": {
+      "communication": {
+        "title": "Communication",
+        "description": "Communicating clearly and concisely with team members and steakholders"
+      },
+      "english": {
+        "title": "English Fluency",
+        "description": "Ability to communicate effectively in both written and spoken contexts"
+      },
+      "teamwork": {
+        "title": "Teamwork",
+        "description": "Collborating harmoniously with others to achieve project goals"
+      },
+      "organization": {
+        "title": "Organization",
+        "description": "Ability to organize tasks and manage time efficiently"
+      }
     },
     "downloadBtn": "<a href='CV-file/Resume_David_Pessoa.pdf' title='Download CV' class='button button-primary'>Download CV</a>"
   }, 

@@ -60,8 +60,23 @@
       "TCC": "Estacionamento Automatizado (TCC)"
     },
     "subTitleSkills": "Habilidades",
-    "skills": {
-      "english": "Inglês"
+    "softSkills": {
+      "communication": {
+        "title": "Comunicação",
+        "description": "Comunicação clara e concisa com o time de desenvolvimento e stakeholders"
+      },
+      "english": {
+        "title": "Fluência em Inglês",
+        "description": "Capacidade de se comunicar de forma escrita e oral em inglês sem dificuldades"
+      },
+      "teamwork": {
+        "title": "Trabalho em Equipe",
+        "description": "Colaboro de forma harmoniosa com outros para atingir os objetivos do projeto"
+      },
+      "organization": {
+        "title": "Organização",
+        "description": "Costumo organizar meu tempo para realizar tarefas, de modo a otimizá-lo"
+      }
     },
     "downloadBtn": "<a href='CV-file/Curriculum_Vitae_David_Pessoa.pdf' title='Download CV' class='button button-primary'>Download CV</a>"
   },

@@ -1769,6 +1769,24 @@ header nav ul li .language:hover {
   color: var(--blue);
 }
 
+#resume .resume-header .soft-skills-list ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+#resume .resume-header .soft-skills-list ul li {
+  width: 22%;
+  height: 18rem;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: #00000062 5px 5px 10px;
+}
+#resume .resume-header .soft-skills-list ul li span {
+  text-align: justify;
+}
+
 #resume .resume-header .skills-icons ul {
   list-style: none;
   display: flex;
