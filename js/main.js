@@ -40,11 +40,12 @@
   /* Owl Carousel
 	------------------------------------------------------ */
   $("#owl-slider").owlCarousel({
-    navigation: false,
+    navigation: true,
     pagination: true,
+    loop: true,
     itemsCustom: [
       [0, 1],
-      [700, 2],
+      [1100, 2],
     ],
     navigationText: false,
     autoHeight: true,

@@ -2395,6 +2395,46 @@ header nav ul li .language:hover {
   background: var(--blue);
 }
 
+/* Owl Carousel Navigation Arrows */
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 10rem;
+  color: #fff;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  height: 20px;
+  width: 20px;
+}
+
+.owl-theme .owl-controls .owl-buttons div::before {
+  font-family: "Font Awesome 6 Free"; /* Usa a família de fontes do Font Awesome */
+  font-weight: 900; /* Necessário para ícones sólidos */
+  font-size: 5rem; /* Tamanho do ícone */
+  display: inline-block;
+}
+
+.owl-theme .owl-controls .owl-buttons div:hover {
+  opacity: 1;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: -50px;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev::before {
+  content: "\f053"; /* Código do ícone fa-chevron-left */
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: -50px;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-next::before {
+  content: "\f054"; /* Código do ícone fa-chevron-right */
+}
+
 /** 
  * ===================================================================
  * 16. stats - (_layout.scss)
@@ -2446,6 +2486,14 @@ header nav ul li .language:hover {
   #stats .stat:nth-child(3n + 1) {
     border: none;
   }
+
+  .owl-theme .owl-controls .owl-buttons .owl-prev {
+    left: 0px;
+  }
+
+  .owl-theme .owl-controls .owl-buttons .owl-next {
+    right: 0px;
+  }
 }
 @media only screen and (max-width: 768px) {
   #stats .stat:nth-child(n) {
@@ -2454,10 +2502,22 @@ header nav ul li .language:hover {
   #stats .stat:nth-child(2n + 1) {
     border: none;
   }
+  .owl-theme .owl-controls .owl-buttons div::before {
+    font-size: 4rem; /* Tamanho do ícone */
+  }
 }
 @media only screen and (max-width: 600px) {
   #stats .stat:nth-child(n) {
     border: none;
+  }
+  .owl-theme .owl-controls .owl-buttons div::before {
+    font-size: 2.3rem; /* Tamanho do ícone */
+  }
+}
+@media only screen and (max-width: 400px) {
+  .certificate-list .icon img {
+    height: 200px;
+    width: auto;
   }
 }
 
