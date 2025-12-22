@@ -24,7 +24,7 @@
     "title": "My Experiences",
     "subTitleProfXP": "Professional Experience",
     "20DASH": {
-      "roleName": "Web Developer",
+      "roleName": "Full Stack Developer",
       "period": "Sep 2025 - Present",
       "company": "20DASH",
       "description": "I currently work as a web developer at 20DASH, contributing to both back-end and front-end development. On the back-end, I collaborate on system development using tools such as AWS Lambda and Chalice. For integrations and PostgreSQL database manipulation, I use libraries like SQLAlchemy and Alembic. On the front-end, I develop user interfaces using React.js"
@@ -39,7 +39,7 @@
       "roleName": "Front-end Developer",
       "period": "March 2023 - Nov 2023",
       "company": "Mackleaps",
-      "description": "In 2023, I worked as a volunteer at Mackleaps Junior Company to develop the front-end (using HTML, CSS, Javascript and React.js) of a web application to display weather data from stations located on the Mackenzie campus"
+      "description": "In 2023, I worked as a volunteer at Mackleaps Junior Company to develop the front-end (using HTML, CSS, Javascript and React.js) of a web application to display weather data from stations located on the Mackenzie campus. <a href='https://mackleaps.mackenzie.br/grafana/public-dashboards/4d1d71b3511f4151b6c042dbbbef965b?orgId=1&from=now-7d&to=now&timezone=browser'>Click here</a> to see the website."
     },
     "subTitleAcademicXP": "Academic Education",
     "computerScience": {

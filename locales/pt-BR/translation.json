@@ -24,7 +24,7 @@
     "title": "Minhas Experiências",
     "subTitleProfXP": "Experiência Profissional",
     "20DASH": {
-      "roleName": "Desenvolvedor Web",
+      "roleName": "Desenvolvedor Full Stack",
       "period": "Set 2025 - Presente",
       "company": "20DASH",
       "description": "Atualmente atuo como desenvolvedor web na empresa 20DASH. No back-end, colaboro no desenvolvimento de sistemas utilizando ferramentas como o AWS Lambda com o Chalice. Para integração e manipulação do banco de dados em PostgreSQL, utilizo as bibliotecas SQLAlchemy e Alembic. Já no front-end, contribuo no desenvolvimento de interfaces utilizando React.js."
@@ -39,14 +39,14 @@
       "roleName": "Desenvolvedor Front-end",
       "period": "Março 2023 - Nov 2023",
       "company": "Mackleaps",
-      "description": "Durante o ano de 2023, trabalhei na Empresa Júnior Mackleaps como voluntário para desenvolver o front-end (utilizando HTML, CSS, Javascript e React.js) de uma aplicação web para exibição dos dados do clima e tempo no campus do Mackenzie."
+      "description": "Durante o ano de 2023, trabalhei na Empresa Júnior Mackleaps como voluntário para desenvolver o front-end (utilizando HTML, CSS, Javascript e React.js) de uma aplicação web para exibição dos dados do clima e tempo no campus do Mackenzie. <a href='https://mackleaps.mackenzie.br/grafana/public-dashboards/4d1d71b3511f4151b6c042dbbbef965b?orgId=1&from=now-7d&to=now&timezone=browser'>Clique aqui</a> para ver o website."
     },
     "subTitleAcademicXP": "Formação Acadêmica",
     "computerScience": {
       "courseName": "Ciências da Computação",
       "period": "Fev 2022 - Nov 2025",
       "institution": "Universidade Presbiteriana Mackenzie",
-      "degree": "Bacharelado em Ciências da Computaçãoa",
+      "degree": "Bacharelado em Ciências da Computação",
       "TCC": "Avaliação da performance de aplicação de LLM com RAG na resolução de questões do Direito Ambiental (TCC)",
       "monitor": " Monitor na disciplina de Algoritmos e Programação II",
       "research": "Pesquisa com tema ‟A study on the interaction of the elderly with digital games through usability and user experience evaluations” publicada no Centro Latino Americano de Estudios en Informática (CLEI). DOI: <a href='https://doi.org/10.19153/cleiej.27.1.4'>https://doi.org/10.19153/cleiej.27.1.4</a >",
