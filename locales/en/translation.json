@@ -25,9 +25,9 @@
     "subTitleProfXP": "Professional Experience",
     "20DASH": {
       "roleName": "Full Stack Developer",
-      "period": "Sep 2025 - Present",
+      "period": "Sep 2025 - Dec 2025",
       "company": "20DASH",
-      "description": "I currently work as a web developer at 20DASH, contributing to both back-end and front-end development. On the back-end, I collaborate on system development using tools such as AWS Lambda and Chalice. For integrations and PostgreSQL database manipulation, I use libraries like SQLAlchemy and Alembic. On the front-end, I develop user interfaces using React.js"
+      "description": "At the end of 2025, I worked as a Full-Stack Developer intern at 20DASH. On the back end, I collaborated on the development of microservices-based systems using AWS Lambda (serverless) with the Chalice Framework, integrated with a PostgreSQL database hosted on AWS RDS. On the front end, I contributed to interface development using React.js with Vite.js, focusing on reusable components, best practices in state management, and seamless API integration."
     },
     "elevential": {
       "roleName": "Web Developer",
