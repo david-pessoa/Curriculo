@@ -39,7 +39,7 @@
       "roleName": "Desenvolvedor Front-end",
       "period": "Março 2023 - Nov 2023",
       "company": "Mackleaps",
-      "description": "Durante o ano de 2023, trabalhei na Empresa Júnior Mackleaps como voluntário para desenvolver o front-end (utilizando HTML, CSS, Javascript e React.js) de uma aplicação web para exibição dos dados do clima e tempo no campus do Mackenzie. <a href='https://mackleaps.mackenzie.br/grafana/public-dashboards/4d1d71b3511f4151b6c042dbbbef965b?orgId=1&from=now-7d&to=now&timezone=browser'>Clique aqui</a> para ver o website."
+      "description": "Durante o ano de 2023, trabalhei na Empresa Júnior Mackleaps como voluntário para desenvolver o front-end (utilizando HTML, CSS, Javascript e React.js) de uma aplicação web para exibição dos dados do clima e tempo no campus do Mackenzie. <a href='https://mackleaps.mackenzie.br/grafana/public-dashboards/4d1d71b3511f4151b6c042dbbbef965b?orgId=1&from=now-7d&to=now&timezone=browser' target='_blank'>Clique aqui</a> para ver o website."
     },
     "subTitleAcademicXP": "Formação Acadêmica",
     "computerScience": {
@@ -49,7 +49,7 @@
       "degree": "Bacharelado em Ciências da Computação",
       "TCC": "Avaliação da performance de aplicação de LLM com RAG na resolução de questões do Direito Ambiental (TCC)",
       "monitor": " Monitor na disciplina de Algoritmos e Programação II",
-      "research": "Pesquisa com tema ‟A study on the interaction of the elderly with digital games through usability and user experience evaluations” publicada no Centro Latino Americano de Estudios en Informática (CLEI). DOI: <a href='https://doi.org/10.19153/cleiej.27.1.4'>https://doi.org/10.19153/cleiej.27.1.4</a >",
+      "research": "Pesquisa com tema ‟A study on the interaction of the elderly with digital games through usability and user experience evaluations” publicada no Centro Latino Americano de Estudios en Informática (CLEI). DOI: <a href='https://doi.org/10.19153/cleiej.27.1.4' target='_blank'>https://doi.org/10.19153/cleiej.27.1.4</a >",
       "concierge": "Projeto Concierge"
     },
     "electronics": {
@@ -78,14 +78,14 @@
         "description": "Costumo organizar meu tempo para realizar tarefas, de modo a otimizá-lo"
       }
     },
-    "downloadBtn": "<a href='CV-file/Curriculum_Vitae_David_Pessoa.pdf' title='Download CV' class='button button-primary'>Download CV</a>"
+    "downloadBtn": "<a href='CV-file/Curriculum_Vitae_David_Pessoa.pdf' target='_blank' title='Download CV' class='button button-primary'>Download CV</a>"
   },
   "portfolio": {
     "subTitle": "Portfólio",
     "title": "Meus Projetos",
     "dentalClinic": {
       "title": "Clínica Odontológica",
-      "description": "Desenvolvi um website utilizando Next.js como projeto da disciplina de Web Mobile. A aplicação inclui página inicial com apresentação dos serviços, avaliações de pacientes e perfis dos profissionais. Todo o site foi construído com foco em responsividade, garantindo boa experiência em diferentes tamanhos de tela e dispositivos. <a href='https://clinicaodontologica.davidpessoa.com.br/'>Clique aqui para ver o site!</a>"
+      "description": "Desenvolvi um website utilizando Next.js como projeto da disciplina de Web Mobile. A aplicação inclui página inicial com apresentação dos serviços, avaliações de pacientes e perfis dos profissionais. Todo o site foi construído com foco em responsividade, garantindo boa experiência em diferentes tamanhos de tela e dispositivos. <a href='https://clinicaodontologica.davidpessoa.com.br/' target='_blank'>Clique aqui para ver o site!</a>"
     },
     "samsai": {
       "title": "SamsAI",
@@ -93,7 +93,7 @@
     },
     "weatherStation": {
       "title": "Estação Meteorológica",
-      "description": "A fim de desenvolver minhas habilidades com o framework do Django do Python (e um pouco de front-end também), resolvi criar esta aplicação que obtém os dados da estação meteorológica da cidade selecionada e os exibem na tela. Os dados são obtidos da a partir da <a href='https://www.weatherapi.com/'>WeatherAPI</a>."
+      "description": "A fim de desenvolver minhas habilidades com o framework do Django do Python (e um pouco de front-end também), resolvi criar esta aplicação que obtém os dados da estação meteorológica da cidade selecionada e os exibem na tela. Os dados são obtidos da a partir da <a href='https://www.weatherapi.com/' target='_blank'>WeatherAPI</a>."
     },
     "bank": {
       "title": "Banco do Django",
