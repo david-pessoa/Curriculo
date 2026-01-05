@@ -85,7 +85,7 @@
     "title": "My Projects",
     "dentalClinic": {
       "title": "Dental Clinic Website",
-      "description": "I developed a website using Next.js as part of a Web and Mobile Development course project. The application includes a homepage presenting the clinic’s services, patient reviews, and profiles of dental professionals. The entire website was built with a strong focus on responsiveness, ensuring a good user experience across different screen sizes and devices."
+      "description": "I developed a website using Next.js as part of a Web and Mobile Development course project. The application includes a homepage presenting the clinic’s services, patient reviews, and profiles of dental professionals. The entire website was built with a strong focus on responsiveness, ensuring a good user experience across different screen sizes and devices. <a href='https://clinicaodontologica.davidpessoa.com.br/'>Click here to check out the web site!</a>"
     },
     "samsai": {
       "title": "SamsAI",

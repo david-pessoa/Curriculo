@@ -85,7 +85,7 @@
     "title": "Meus Projetos",
     "dentalClinic": {
       "title": "Clínica Odontológica",
-      "description": "Desenvolvi um website utilizando Next.js como projeto da disciplina de Web Mobile. A aplicação inclui página inicial com apresentação dos serviços, avaliações de pacientes e perfis dos profissionais. Todo o site foi construído com foco em responsividade, garantindo boa experiência em diferentes tamanhos de tela e dispositivos."
+      "description": "Desenvolvi um website utilizando Next.js como projeto da disciplina de Web Mobile. A aplicação inclui página inicial com apresentação dos serviços, avaliações de pacientes e perfis dos profissionais. Todo o site foi construído com foco em responsividade, garantindo boa experiência em diferentes tamanhos de tela e dispositivos. <a href='https://clinicaodontologica.davidpessoa.com.br/'>Clique aqui para ver o site!</a>"
     },
     "samsai": {
       "title": "SamsAI",
