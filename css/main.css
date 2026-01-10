@@ -2072,19 +2072,21 @@ header nav ul li .language:hover {
 @media (max-width: 600px) and (min-width: 320px) {
   #portfolio .folio-list {
     max-width: 100vw;
+    flex-direction: column;
+    align-items: center;
   }
 
   #portfolio figure {
-    max-width: 18rem;
+    max-width: 30rem;
+    max-height: 30rem;
   }
 
-  .especialidades figure img {
-   max-width: 18rem;
-   max-height: 18rem;
+  #portfolio figure img {
+   height: 30rem;
   } 
 
   #portfolio figure figcaption p {
-    font-size: 0.938rem;
+    font-size: 1.5rem;
   }
 
   #portfolio figure:hover figcaption h4 {
