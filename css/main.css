@@ -1995,88 +1995,75 @@ header nav ul li .language:hover {
   padding-top: 12rem;
   padding-bottom: 12rem;
 }
-#portfolio .folio-item {
-  padding: 0;
-  position: relative;
-  overflow: hidden;
-}
-#portfolio .folio-item p {
-  text-align: justify;
-}
-#portfolio .folio-item img {
-  margin-bottom: 2rem;
-  width: 65%;
-}
-#portfolio .folio-item iframe {
-  margin-bottom: 2rem;
-}
 
-#portfolio .folio-image {
-  justify-content: center;
+#portfolio .folio-list {
   display: flex;
-}
-#portfolio .folio-image img {
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.308);
-}
-
-#portfolio .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  flex-wrap: nowrap;
+  list-style: none;
+  margin: 0 auto;
+  gap: 3.188rem;
+  justify-content: center;
+  transition: all;
 }
 
-#portfolio .folio-item-table {
-  display: table;
-  width: 100%;
-  height: 100%;
-}
-#portfolio .folio-item-cell {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+#portfolio figure {
   position: relative;
-  left: -100%;
+  display: flex;
+  flex-flow: column;
+  overflow: hidden;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+  max-height: 45rem;
+  max-width: 45rem;
+
 }
 
-#portfolio .folio-item h2 {
-  margin-top: 2rem;
-  color: var(--blue);
+#portfolio figure img {
+  width: 100%;
+  height: 45rem;
+  object-fit: cover;   /* preenche o espaço */
+  object-position: top;/* corta a parte inferior */
+  display: block;
+}
+
+#portfolio figure figcaption {
+  background-color: rgba(47, 169, 221, 0.74);
+  width: 100%;
+  position: absolute;
+  bottom: 0; /* gruda na parte inferior */
+  transition: all 0.7s ease-in-out;
+  padding-top: 1rem;
+}
+
+#portfolio figure figcaption h5 {
+  color: #fff;
+  text-transform: uppercase;
   text-align: center;
+  font-weight: 400;
+  font-family: "poppins-semibold", serif;
+  margin-bottom: 1rem;
+  transition: all 0.7s ease-in-out;
 }
 
-#portfolio .folio-title {
-  color: #ffffff;
-  font-size: 3.3rem;
-  padding: 0 3rem;
+#portfolio figure figcaption p {
+  font-size: 1.125rem;
+  font-family: "poppins-semibold", serif;
+  text-align: justify;
+  line-height: 1.2;
+  max-height: 0; /* esconde */
+  opacity: 0; /* invisível */
+  overflow: hidden; /* não deixa vazar */
+  transition: all 0.7s ease-in-out;
+  margin-left: 1rem;
+  margin-right: 1rem;
   margin-bottom: 0;
 }
-#portfolio .folio-types {
-  margin: 0;
-  padding: 0;
-  text-transform: uppercase;
-  font-family: "poppins-regular", sans-serif;
-  font-size: 1.2rem;
-  letter-spacing: 0.1rem;
-  color: rgba(255, 255, 255, 0.6);
-}
-#portfolio .folio-item:hover .overlay {
-  background: rgba(0, 0, 0, 0.8);
-}
-#portfolio .folio-item:hover .folio-item-cell {
-  left: 0;
+
+#portfolio figure:hover figcaption p {
+  max-height: 300px;
+  opacity: 1;
+  color: #fff;
+  margin-bottom: 1rem;
 }
 
 /**
@@ -2084,39 +2071,26 @@ header nav ul li .language:hover {
  * portfolio
  * ------------------------------------------------------------------- 
  */
-@media only screen and (max-width: 1024px) {
-  #portfolio .folio-title {
-    font-size: 3.1rem;
+@media (max-width: 600px) and (min-width: 320px) {
+  #portfolio .folio-list {
+    max-width: 100vw;
   }
 
-  #portfolio .folio-item img {
-    margin-bottom: 2rem;
-    width: 80%;
+  #portfolio figure {
+    max-width: 18rem;
   }
-}
-@media only screen and (max-width: 768px) {
-  #portfolio .folio-title {
-    font-size: 2.5rem;
-  }
-  #portfolio .folio-item img {
-    margin-bottom: 2rem;
-    width: 80%;
-  }
-}
 
-@media only screen and (max-width: 700px) {
-  #portfolio .folio-title {
-    font-size: 2.5rem;
-  }
-  #portfolio .folio-item img {
-    margin-bottom: 2rem;
-    width: 100%;
-  }
-}
+  .especialidades figure img {
+   max-width: 18rem;
+   max-height: 18rem;
+  } 
 
-@media only screen and (max-width: 400px) {
-  #portfolio .folio-title {
-    font-size: 2.2rem;
+  #portfolio figure figcaption p {
+    font-size: 0.938rem;
+  }
+
+  #portfolio figure:hover figcaption h4 {
+    margin-bottom: 0.4rem;
   }
 }
 
