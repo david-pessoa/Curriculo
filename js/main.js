@@ -35,35 +35,38 @@
   /* Inserção de conteúdo do JSON no HTML
 	------------------------------------------------------ */
   const projectList = document.getElementById("projectList");
-
-  fetch("./dados.json")
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error("Erro ao carregar o JSON: " + response.status);
-      }
-      return response.json();
-    })
-    .then((data) => {
-      // Carrega boxes com os projetos dinamicamente
-      const projects = data;
-      projects.map((project, i) => {
-        const item = document.createElement("li");
-        item.className = "folio-item";
-        item.innerHTML = `
-          <a href=/projetos/?id=${++i} target="_blank">
-              <figure>
-                <img src=${project.imagemHome} alt="${project.nome}" />
-                <figcaption>
-                  <h3>${project.nome}</h3>
-                  <p>${project.miniDescricao}</p>
-                </figcaption>
-              </figure>
-            </a>
+  function loadProjectsList() {
+    fetch("./dados.json")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Erro ao carregar o JSON: " + response.status);
+        }
+        return response.json();
+      })
+      .then((data) => {
+        // Carrega boxes com os projetos dinamicamente
+        const projects = data;
+        projects.map((project, i) => {
+          const item = document.createElement("li");
+          item.className = "folio-item";
+          item.innerHTML = `
+          <a href=/projetos/?id=${i + 1} target="_blank">
+            <figure>
+              <img src=${project.imagemHome} alt="${project.nome}" />
+              <figcaption>
+                <h3>${project.nome}</h3>
+                <p>${project.miniDescricao}</p>
+              </figcaption>
+            </figure>
+          </a>
         `;
-        projectList.appendChild(item);
-      });
-    })
-    .catch((error) => console.error(error));
+          projectList.appendChild(item);
+        });
+      })
+      .catch((error) => console.error(error));
+  }
+  if (projectList)
+    loadProjectsList()
 
   /*---------------------------------------------------- */
   /* FitVids

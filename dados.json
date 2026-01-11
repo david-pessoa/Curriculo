@@ -5,8 +5,8 @@
     "linkExternoEhVideo": false,
     "linkExterno": "https://clinicaodontologica.davidpessoa.com.br/",
     "imagemHome": "images/portfolio/dentista.png",
-    "imagemHero": "images/portfolio/dentista.png",
-    "descricao": ""
+    "imagemHero": "../images/portfolio/dentista.png",
+    "descricao": "Lorem Ipsum dolor..."
   },
   {
     "nome": "SamsAI",

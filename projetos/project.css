@@ -1,0 +1,16 @@
+header {
+  max-height: 0;
+}
+
+#hero {
+  margin-top: 40px;
+}
+
+#hero h1 {
+  text-align: center;
+  color: #fff;
+}
+
+#hero #projectImage {
+  height: 70vh;
+}
