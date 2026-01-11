@@ -1,0 +1,56 @@
+[
+  {
+    "nome": "Clínica Odontológica",
+    "miniDescricao": "Desenvolvi um website utilizando Next.js como projeto para uma clínica Odontológica de São Paulo. A aplicação inclui página inicial com apresentação dos serviços, avaliações de pacientes e perfis dos profissionais. Clique aqui para saber mais!",
+    "linkExternoEhVideo": false,
+    "linkExterno": "https://clinicaodontologica.davidpessoa.com.br/",
+    "imagemHome": "images/portfolio/dentista.png",
+    "imagemHero": "images/portfolio/dentista.png",
+    "descricao": ""
+  },
+  {
+    "nome": "SamsAI",
+    "miniDescricao": "Como TCC da minha graduação, desenvolvi, junto com meus amigos, uma aplicação utilizando o Django integrada ao modelo de IA, Sabiá-3, para auxiliar o poder Judiciário. A aplicação também é integrada ao RAG para fornecer contexto jurídico para o modelo, a fim de que ele consiga responder às perguntas dos usuários.",
+    "linkExternoEhVideo": false,
+    "linkExterno": "",
+    "imagemHome": "images/portfolio/samsai.png",
+    "imagemHero": "",
+    "descricao": ""
+  },
+  {
+    "nome": "Estação Meteorológica",
+    "miniDescricao": "A fim de desenvolver minhas habilidades com o framework do Django do Python (e um pouco de front-end também), resolvi criar esta aplicação que obtém os dados da estação meteorológica da cidade selecionada e os exibem na tela. Os dados são obtidos da a partir da WeatherAPI.",
+    "linkExternoEhVideo": false,
+    "linkExterno": "",
+    "imagemHome": "images/portfolio/estacao-meteorologica.png",
+    "imagemHero": "",
+    "descricao": ""
+  },
+  {
+    "nome": "Banco de Django",
+    "miniDescricao": "Assim como o projeto da Estação Meteorológica, este é mais outro projeto meu para me aprimorar no framework Django e no front-end. Nessa aplicação, o usuário pode criar um cadastro e acessar sua conta para realizar saques, depósitos e até transferências por PIX que podem ser consultadas no histórico de transações.",
+    "linkExternoEhVideo": false,
+    "linkExterno": "",
+    "imagemHome": "images/portfolio/banco-django.png",
+    "imagemHero": "",
+    "descricao": ""
+  },
+  {
+    "nome": "O Concierge",
+    "miniDescricao": "Durante a faculdade, desenvolvi um carrinho de controle remoto controlado por um aplicativo mobile usando Arduino, cujo objetivo era carregar objetos para seu usuário, a fim de poupar seus esforços, o Concierge.",
+    "linkExternoEhVideo": false,
+    "linkExterno": "",
+    "imagemHome": "images/portfolio/concierge.png",
+    "imagemHero": "",
+    "descricao": ""
+  },
+  {
+    "nome": "Estacionamento Automatizado",
+    "miniDescricao": "No último ano do curso de eletrônica no Liceu, construí uma maquete de um estacionamento automatizado como TCC. A maquete consistia num estacionamento em que os sensores de luminosidade colocados nas vagas detectavam a presença de um carro através da mudança de luminosidade sobre os mesmos. Clique para saber mais!",
+    "linkExternoEhVideo": true,
+    "linkExterno": "https://youtu.be/gnP4jFrD204",
+    "imagemHome": "images/portfolio/estacionamento-automatizado.png",
+    "imagemHero": "",
+    "descricao": ""
+  }
+]
