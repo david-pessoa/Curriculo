@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const projectTitle = document.getElementById("projectTitle");
   const projectImage = document.getElementById("projectImage");
+  const skillsListTag = document.getElementById("skillsList");
   const projectDescription = document.getElementById("projectDescription");
   const youtubeIframe = document.getElementById("youtubeIframe");
 
@@ -19,6 +20,24 @@ document.addEventListener("DOMContentLoaded", () => {
   const num = Number(projectId);
   if (Number.isNaN(num) || num <= 0) returnHome();
 
+  const classMap = {
+    "Next.js": "next",
+    HTML: "html",
+    CSS: "css",
+    JavaScript: "javascript",
+    "React.js": "react",
+    Bootstrap: "bootstrap",
+    Python: "python",
+    Django: "django",
+    Chalice: "chalice",
+    AWS: "aws",
+    Docker: "docker",
+    PostgreSQL: "postgresql",
+    SQL: "sql",
+    "Arduino": "arduino",
+    "C/C++": "cpp"
+  };
+
   fetch("../dados.json")
     .then((response) => {
       if (!response.ok) {
@@ -34,14 +53,22 @@ document.addEventListener("DOMContentLoaded", () => {
       const project = data[projectId - 1];
       projectTitle.innerText = project.nome;
 
-      const paragraphsList = project.descricao.split('\n');
+      const skillsList = project.skills.split(";");
+      skillsList.map((skill) => {
+        const item = document.createElement("li");
+        item.innerHTML = `<h3>${skill}</h3>`;
+        item.className = classMap[skill] ?? "";
+        if (item.className) skillsListTag.appendChild(item);
+      });
+
+      const paragraphsList = project.descricao.split("\n");
       paragraphsList.map((paragraph) => {
-        const newParagraph = document.createElement('p')
-        newParagraph.innerHTML = paragraph
-        newParagraph.className = 'project-description'
-        projectDescription.appendChild(newParagraph)
-      })
-      
+        const newParagraph = document.createElement("p");
+        newParagraph.innerHTML = paragraph;
+        newParagraph.className = "project-description";
+        projectDescription.appendChild(newParagraph);
+      });
+
       projectImage.style.cssText = `
       background-image: url(${project.imagemHero});
       background-size: cover;
@@ -49,9 +76,9 @@ document.addEventListener("DOMContentLoaded", () => {
       background-repeat: no-repeat;
        `;
 
-       if (project.linkExternoEhVideo) {
-        youtubeIframe.style.display = "flex"
-       }
+      if (project.linkExternoEhVideo) {
+        youtubeIframe.style.display = "flex";
+      }
     })
     .catch((error) => console.error(error));
 });

@@ -6,6 +6,7 @@
     "linkExterno": "https://clinicaodontologica.davidpessoa.com.br/",
     "imagemHome": "images/portfolio/dentista.png",
     "imagemHero": "../images/projetos-page/long-dentista.png",
+    "skills": "HTML;CSS;JavaScript;Next.js",
     "descricao": "Em janeiro de 2026, completei o site que desenvolvi para uma Clínica Odontológica de São Paulo, que você pode ver <a href='https://clinicaodontologica.davidpessoa.com.br/' target='_blank'>clicando aqui</a>. O objetivo elaborar um site que fosse capaz de: apresentar a clínica (expondo um carrossel com as imagens do consultório no início) e os profissionais que nela trabalham, mostrar os serviços prestados, exibir as informações para contato e permitir que o paciente envie um email para marcar uma consulta.\nOs principais desafios foram aprender a usar o Next.js e descobrir a melhor maneira de garantir responsividade às telas do site. Caso tenha interesse, acesse aqui <a href='https://github.com/david-pessoa/web-mobile-next' target='_blank'>o repositório do projeto no GitHub</a>."
   },
   {
@@ -15,6 +16,7 @@
     "linkExterno": "",
     "imagemHome": "images/portfolio/samsai.png",
     "imagemHero": "../images/projetos-page/long-samsai.png",
+    "skills": "HTML;CSS;JavaScript;Bootstrap;Python;Django",
     "descricao": ""
   },
   {
@@ -24,6 +26,7 @@
     "linkExterno": "",
     "imagemHome": "images/portfolio/estacao-meteorologica.png",
     "imagemHero": "../images/portfolio/estacao-meteorologica.png",
+    "skills": "HTML;CSS;JavaScript;Bootstrap;Python;Django",
     "descricao": ""
   },
   {
@@ -33,6 +36,7 @@
     "linkExterno": "",
     "imagemHome": "images/portfolio/banco-django.png",
     "imagemHero": "../images/portfolio/banco-django.png",
+    "skills": "HTML;CSS;JavaScript;Bootstrap;Python;Django",
     "descricao": ""
   },
   {
@@ -42,6 +46,7 @@
     "linkExterno": "",
     "imagemHome": "images/portfolio/concierge.png",
     "imagemHero": "../images/portfolio/concierge.png",
+    "skills": "Arduino;C/C++",
     "descricao": ""
   },
   {
@@ -51,6 +56,7 @@
     "linkExterno": "https://youtu.be/gnP4jFrD204",
     "imagemHome": "images/portfolio/estacionamento-automatizado.png",
     "imagemHero": "../images/portfolio/estacionamento-automatizado.png",
+    "skills": "Arduino;C/C++",
     "descricao": ""
   }
 ]
