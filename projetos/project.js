@@ -3,9 +3,21 @@ document.addEventListener("DOMContentLoaded", () => {
   const projectImage = document.getElementById("projectImage");
   const projectDescription = document.getElementById("projectDescription");
 
+  // Obtém ID
   const params = new URLSearchParams(window.location.search);
   const projectId = params.get("id");
-  console.log("oi");
+
+  function returnToHome() {
+    window.location.href = "/";
+  }
+
+  // Verifica de ID existe
+  if (!projectId) returnToHome();
+
+  // Verifica se o ID é um número
+  const num = Number(projectId);
+  console.log(num);
+  if (Number.isNaN(num)) returnToHome();
 
   fetch("../dados.json")
     .then((response) => {
@@ -15,6 +27,9 @@ document.addEventListener("DOMContentLoaded", () => {
       return response.json();
     })
     .then((data) => {
+      // Verifica se o número de ID é menor ou igual ao tamanho do array data
+      if (data.length <= projectId) returnToHome();
+
       // Carrega boxes com os projetos dinamicamente
       const project = data[projectId - 1];
       projectTitle.innerText = project.nome;
