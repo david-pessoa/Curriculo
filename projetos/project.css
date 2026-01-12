@@ -22,81 +22,88 @@
   overflow: hidden;
 }
 
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #skillsList {
- display: flex;
- margin-left: 10rem;
- gap: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-bottom: 11rem;
 }
-#skillsList li{
- width: 140px;
- height: 40px;
- border-radius: 40px;
- list-style: none;
- text-align: center;
- display: flex;
- justify-content: center;
- align-items: center;
+#skillsList li {
+  width: 140px;
+  height: 40px;
+  border-radius: 40px;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#skillsList li h3{
- margin: 0;
- color: #FFF;
-}
-
-#skillsList li.next{
- background-color: #000;
-}
-#skillsList li.html{
- background-color: #E44D26;
-}
-#skillsList li.css{
- background-color: #1F72B6;
-}
-#skillsList li.javascript{
- background-color: #F0DB4F;
-}
-#skillsList li.javascript h3{
- color: #323330;
-}
-#skillsList li.bootstrap{
- background-color: #7723F7;
-}
-#skillsList li.react{
- background-color: #61DAFB;
-}
-#skillsList li.react h3{
- color: #303030;
-}
-#skillsList li.python{
- background-color: #306998;
-}
-#skillsList li.django{
- background-color: #092E1F;
-}
-#skillsList li.chalice{
- background-color: #36BFA5;
-}
-#skillsList li.aws{
- background-color: #FAA41C;
-}
-#skillsList li.aws h3{
- color: #0f1111;
-}
-#skillsList li.docker{
- background-color: #2A91E2;
-}
-#skillsList li.postgresql{
- background-color: #336791;
-}
-#skillsList li.sql{
- background-color: #3298DA;
-}
-#skillsList li.arduino{
- background-color: #008284;
-}
-#skillsList li.cpp{
- background-color: #6296CC;
+#skillsList li h3 {
+  margin: 0;
+  color: #fff;
 }
 
+#skillsList li.next {
+  background-color: #000;
+}
+#skillsList li.html {
+  background-color: #e44d26;
+}
+#skillsList li.css {
+  background-color: #1f72b6;
+}
+#skillsList li.javascript {
+  background-color: #f0db4f;
+}
+#skillsList li.javascript h3 {
+  color: #323330;
+}
+#skillsList li.bootstrap {
+  background-color: #7723f7;
+}
+#skillsList li.react {
+  background-color: #61dafb;
+}
+#skillsList li.react h3 {
+  color: #303030;
+}
+#skillsList li.python {
+  background-color: #306998;
+}
+#skillsList li.django {
+  background-color: #092e1f;
+}
+#skillsList li.chalice {
+  background-color: #36bfa5;
+}
+#skillsList li.aws {
+  background-color: #faa41c;
+}
+#skillsList li.aws h3 {
+  color: #0f1111;
+}
+#skillsList li.docker {
+  background-color: #2a91e2;
+}
+#skillsList li.postgresql {
+  background-color: #336791;
+}
+#skillsList li.sql {
+  background-color: #3298da;
+}
+#skillsList li.arduino {
+  background-color: #008284;
+}
+#skillsList li.cpp {
+  background-color: #6296cc;
+}
 
 #about .description {
   display: flex;
@@ -104,7 +111,7 @@
 }
 
 #about .description #projectDescription {
- width: 70%;
+  width: 70%;
 }
 
 #about p.project-description {
@@ -115,6 +122,18 @@
   #hero h1 {
     font-size: 5.5rem;
     padding-bottom: 1vh;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #skillsList {
+    gap: 1rem;
+  }
+  #skillsList li {
+    width: 100px;
+    height: 38px;
+  }
+  #skillsList li h3 {
+    font-size: 1.5rem;
   }
 }
 
