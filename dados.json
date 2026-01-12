@@ -1,6 +1,6 @@
 [
   {
-    "nome": "Estacionamento Automatizado",
+    "nome": "Clínica Odontológica",
     "miniDescricao": "Desenvolvi um website utilizando Next.js como projeto para uma clínica Odontológica de São Paulo. A aplicação inclui página inicial com apresentação dos serviços, avaliações de pacientes e perfis dos profissionais. Clique aqui para saber mais!",
     "linkExternoEhVideo": false,
     "linkExterno": "https://clinicaodontologica.davidpessoa.com.br/",
@@ -14,7 +14,7 @@
     "linkExternoEhVideo": false,
     "linkExterno": "",
     "imagemHome": "images/portfolio/samsai.png",
-    "imagemHero": "",
+    "imagemHero": "../images/projetos-page/long-samsai.png",
     "descricao": ""
   },
   {
@@ -23,7 +23,7 @@
     "linkExternoEhVideo": false,
     "linkExterno": "",
     "imagemHome": "images/portfolio/estacao-meteorologica.png",
-    "imagemHero": "",
+    "imagemHero": "../images/portfolio/estacao-meteorologica.png",
     "descricao": ""
   },
   {
@@ -32,7 +32,7 @@
     "linkExternoEhVideo": false,
     "linkExterno": "",
     "imagemHome": "images/portfolio/banco-django.png",
-    "imagemHero": "",
+    "imagemHero": "../images/portfolio/banco-django.png",
     "descricao": ""
   },
   {
@@ -41,7 +41,7 @@
     "linkExternoEhVideo": false,
     "linkExterno": "",
     "imagemHome": "images/portfolio/concierge.png",
-    "imagemHero": "",
+    "imagemHero": "../images/portfolio/concierge.png",
     "descricao": ""
   },
   {
@@ -50,7 +50,7 @@
     "linkExternoEhVideo": true,
     "linkExterno": "https://youtu.be/gnP4jFrD204",
     "imagemHome": "images/portfolio/estacionamento-automatizado.png",
-    "imagemHero": "",
+    "imagemHero": "../images/portfolio/estacionamento-automatizado.png",
     "descricao": ""
   }
 ]

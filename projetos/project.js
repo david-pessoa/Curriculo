@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const projectTitle = document.getElementById("projectTitle");
   const projectImage = document.getElementById("projectImage");
   const projectDescription = document.getElementById("projectDescription");
+  const youtubeIframe = document.getElementById("youtubeIframe");
 
   // Obtém ID
   const params = new URLSearchParams(window.location.search);
@@ -39,6 +40,10 @@ document.addEventListener("DOMContentLoaded", () => {
       background-position: top;
       background-repeat: no-repeat;
        `;
+
+       if (project.linkExternoEhVideo) {
+        youtubeIframe.style.display = "flex"
+       }
     })
     .catch((error) => console.error(error));
 });
