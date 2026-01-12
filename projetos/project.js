@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Verifica se o ID é um número
   const num = Number(projectId);
-  console.log(num);
   if (Number.isNaN(num)) returnHome();
 
   fetch("../dados.json")

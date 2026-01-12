@@ -65,8 +65,7 @@
       })
       .catch((error) => console.error(error));
   }
-  if (projectList)
-    loadProjectsList()
+  if (projectList) loadProjectsList();
 
   /*---------------------------------------------------- */
   /* FitVids
@@ -210,18 +209,23 @@
     var target = this.hash,
       $target = $(target);
 
-    $("html, body")
-      .stop()
-      .animate(
-        {
-          scrollTop: $target.offset().top,
-        },
-        800,
-        "swing",
-        function () {
-          window.location.hash = target;
-        }
-      );
+    if ($target.offset()) {
+      $("html, body")
+        .stop()
+        .animate(
+          {
+            scrollTop: $target.offset().top,
+          },
+          800,
+          "swing",
+          function () {
+            window.location.hash = target;
+          }
+        );
+    }
+    else {
+      window.location.href= this.href
+    }
   });
 
   /*---------------------------------------------------- */
