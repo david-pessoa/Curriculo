@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Verifica se o ID é um número
   const num = Number(projectId);
-  if (Number.isNaN(num)) returnHome();
+  if (Number.isNaN(num) || num <= 0) returnHome();
 
   fetch("../dados.json")
     .then((response) => {
@@ -33,7 +33,15 @@ document.addEventListener("DOMContentLoaded", () => {
       // Carrega boxes com os projetos dinamicamente
       const project = data[projectId - 1];
       projectTitle.innerText = project.nome;
-      projectDescription.innerText = project.descricao;
+
+      const paragraphsList = project.descricao.split('\n');
+      paragraphsList.map((paragraph) => {
+        const newParagraph = document.createElement('p')
+        newParagraph.innerHTML = paragraph
+        newParagraph.className = 'project-description'
+        projectDescription.appendChild(newParagraph)
+      })
+      
       projectImage.style.cssText = `
       background-image: url(${project.imagemHero});
       background-size: cover;
