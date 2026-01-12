@@ -7,17 +7,17 @@ document.addEventListener("DOMContentLoaded", () => {
   const params = new URLSearchParams(window.location.search);
   const projectId = params.get("id");
 
-  function returnToHome() {
+  function returnHome() {
     window.location.href = "/";
   }
 
   // Verifica de ID existe
-  if (!projectId) returnToHome();
+  if (!projectId) returnHome();
 
   // Verifica se o ID é um número
   const num = Number(projectId);
   console.log(num);
-  if (Number.isNaN(num)) returnToHome();
+  if (Number.isNaN(num)) returnHome();
 
   fetch("../dados.json")
     .then((response) => {
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .then((data) => {
       // Verifica se o número de ID é menor ou igual ao tamanho do array data
-      if (data.length <= projectId) returnToHome();
+      if (data.length <= projectId) returnHome();
 
       // Carrega boxes com os projetos dinamicamente
       const project = data[projectId - 1];

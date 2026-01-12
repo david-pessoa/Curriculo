@@ -50,7 +50,7 @@
           const item = document.createElement("li");
           item.className = "folio-item";
           item.innerHTML = `
-          <a href=/projetos/?id=${i + 1} target="_blank">
+          <a href=/projetos/?id=${i + 1}>
             <figure>
               <img src=${project.imagemHome} alt="${project.nome}" />
               <figcaption>
