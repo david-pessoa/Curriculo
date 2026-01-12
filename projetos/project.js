@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .then((data) => {
       // Verifica se o número de ID é menor ou igual ao tamanho do array data
-      if (data.length <= projectId) returnHome();
+      if (data.length < projectId) returnHome();
 
       // Carrega boxes com os projetos dinamicamente
       const project = data[projectId - 1];

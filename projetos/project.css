@@ -1,16 +1,19 @@
-header {
-  max-height: 0;
-  max-width: 0;
-}
-
 #hero {
-  margin-top: 40px;
   background-color: #fef9f3;
+  padding-top: 8vh;
 }
 
 #hero h1 {
   text-align: center;
+  font-size: 8.4rem;
+  line-height: 1.071;
+  max-width: 900px;
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  margin-left: auto;
+  margin-right: auto;
   color: var(--blue);
+  padding-bottom: 5vh;
 }
 
 #hero #projectImage {
@@ -18,3 +21,29 @@ header {
   width: 100%;
   overflow: hidden;
 }
+
+@media only screen and (max-width: 1024px) {
+  #hero h1 {
+    font-size: 5.5rem;
+    padding-bottom: 1vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #hero h1 {
+    font-size: 5.2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #hero h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+ #hero {
+  padding-top: 6.5rem;
+ } 
+}
+
