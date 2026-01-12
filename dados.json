@@ -7,7 +7,7 @@
     "imagemHome": "images/portfolio/dentista.png",
     "imagemHero": "../images/projetos-page/long-dentista.png",
     "skills": "HTML;CSS;JavaScript;Next.js",
-    "descricao": "Em janeiro de 2026, completei o site que desenvolvi para uma Clínica Odontológica de São Paulo, que você pode ver <a href='https://clinicaodontologica.davidpessoa.com.br/' target='_blank'>clicando aqui</a>. O objetivo elaborar um site que fosse capaz de: apresentar a clínica (expondo um carrossel com as imagens do consultório no início) e os profissionais que nela trabalham, mostrar os serviços prestados, exibir as informações para contato e permitir que o paciente envie um email para marcar uma consulta.\nOs principais desafios foram aprender a usar o Next.js e descobrir a melhor maneira de garantir responsividade às telas do site. Caso tenha interesse, acesse aqui <a href='https://github.com/david-pessoa/web-mobile-next' target='_blank'>o repositório do projeto no GitHub</a>."
+    "descricao": "Em janeiro de 2026, completei o site que desenvolvi para uma Clínica Odontológica de São Paulo, que você pode ver <a href='https://clinicaodontologica.davidpessoa.com.br/' target='_blank'>clicando aqui</a>. O objetivo elaborar um site que fosse capaz de: apresentar a clínica (expondo um carrossel com as imagens do consultório no início) e os profissionais que nela trabalham, mostrar os serviços prestados, exibir as informações para contato e permitir que os pacientes enviem emails para marcar consultas.\nOs principais desafios durante o desenvolvimento do projeto foram aprender a usar o Next.js e descobrir a melhor maneira de garantir responsividade às telas do site. Caso tenha interesse, acesse aqui <a href='https://github.com/david-pessoa/web-mobile-next' target='_blank'>o repositório do projeto no GitHub</a>."
   },
   {
     "nome": "SamsAI",
@@ -16,8 +16,8 @@
     "linkExterno": "",
     "imagemHome": "images/portfolio/samsai.png",
     "imagemHero": "../images/projetos-page/long-samsai.png",
-    "skills": "HTML;CSS;JavaScript;Bootstrap;Python;Django",
-    "descricao": ""
+    "skills": "HTML;CSS;JavaScript;Python;Django;PostgreSQL",
+    "descricao": "Em 2025, no último ano do curso de Ciências da Computação, elaborei, junto com meus amigos, o TCC com tema “Avaliação da performance de aplicação de LLM com RAG na resolução de questões do Direito Ambiental”. Tendo em vista a lentidão e a sobrecarga do sistema judiciário brasileiro devido ao grande número de processos em tramitação, o objetivo da pesquisa era avaliar se a arquitetura de um chatbot integrada ao modelo Sabiá-3, que implementa a técnica RAG para buscar trechos relevantes na legislação ambiental e fornecê-los como contexto ao modelo, era capaz de auxiliar o poder judiciário neste cenário. Para avaliar o desempenho da IA, selecionamos questões dos exames da OAB e ENADE (Direito) relacionadas ao meio ambiente.\nO front-end do chatbot, desenvolvido com HTML + CSS + JavaScript, foi inspirado nos layouts de grandes LLMs da atualidade. Já o back-end foi desenvolvido em Django, sendo responsável por: integrar o modelo Sabiá-3 via API; fazer consultas ao banco de dados vetorial; salvar, deletar e alterar dados das conversas do usuário no banco de dados PostgreSQL; e retornar informações para o front-end.\nO principal desafio deste projeto foi aprender a elaborar a arquitetura de LLM integrada ao RAG de maneira que o modelo apresentasse o maior desempenho possível. Além disso, no início, foi difícil integrar o front-end ao back-end, devido à necessidade de implementar múltiplas rotas para realizar o CRUD de conversas, mensagens e documentos, mas também as rotas de acesso às telas de conversa, cadastro e login. Caso tenha interesse, acesse <a href='https://github.com/Cehiim/SamsAI' target='_blank'>aqui o repositório do projeto no GitHub</a>."
   },
   {
     "nome": "Estação Meteorológica",
@@ -26,7 +26,7 @@
     "linkExterno": "",
     "imagemHome": "images/portfolio/estacao-meteorologica.png",
     "imagemHero": "../images/portfolio/estacao-meteorologica.png",
-    "skills": "HTML;CSS;JavaScript;Bootstrap;Python;Django",
+    "skills": "HTML;CSS;JavaScript;Bootstrap;Python;Django;PostgreSQL",
     "descricao": ""
   },
   {
@@ -36,7 +36,7 @@
     "linkExterno": "",
     "imagemHome": "images/portfolio/banco-django.png",
     "imagemHero": "../images/portfolio/banco-django.png",
-    "skills": "HTML;CSS;JavaScript;Bootstrap;Python;Django",
+    "skills": "HTML;CSS;JavaScript;Bootstrap;Python;Django;PostgreSQL",
     "descricao": ""
   },
   {
