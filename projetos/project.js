@@ -19,7 +19,12 @@ document.addEventListener("DOMContentLoaded", () => {
       const project = data[projectId - 1];
       projectTitle.innerText = project.nome;
       projectDescription.innerText = project.descricao;
-      projectImage.style.cssText = `background: url(${project.imagemHero}) no-repeat center bottom`;
+      projectImage.style.cssText = `
+      background-image: url(${project.imagemHero});
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+       `;
     })
     .catch((error) => console.error(error));
 });

@@ -1,16 +1,20 @@
 header {
   max-height: 0;
+  max-width: 0;
 }
 
 #hero {
   margin-top: 40px;
+  background-color: #fef9f3;
 }
 
 #hero h1 {
   text-align: center;
-  color: #fff;
+  color: var(--blue);
 }
 
 #hero #projectImage {
   height: 70vh;
+  width: 100%;
+  overflow: hidden;
 }
