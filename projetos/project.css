@@ -34,6 +34,8 @@
   flex-wrap: wrap;
   gap: 3rem;
   margin-bottom: 11rem;
+  margin-left: 0;
+  max-width: 90%;
 }
 #skillsList li {
   width: 140px;
@@ -103,6 +105,12 @@
 }
 #skillsList li.cpp {
   background-color: #6296cc;
+}
+#skillsList li.llm {
+  background-color: #494949;
+}
+#skillsList li.rag {
+  background-color: #722F37;
 }
 
 #about .description {

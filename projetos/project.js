@@ -34,6 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
     Docker: "docker",
     PostgreSQL: "postgresql",
     SQL: "sql",
+    "LLM": "llm",
+    "RAG": "rag",
     "Arduino": "arduino",
     "C/C++": "cpp"
   };
