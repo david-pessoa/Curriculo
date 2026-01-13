@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const projectImage = document.getElementById("projectImage");
   const skillsListTag = document.getElementById("skillsList");
   const projectDescription = document.getElementById("projectDescription");
-  const youtubeIframe = document.getElementById("youtubeIframe");
 
   // Obtém ID
   const params = new URLSearchParams(window.location.search);
@@ -34,10 +33,10 @@ document.addEventListener("DOMContentLoaded", () => {
     Docker: "docker",
     PostgreSQL: "postgresql",
     SQL: "sql",
-    "LLM": "llm",
-    "RAG": "rag",
-    "Arduino": "arduino",
-    "C/C++": "cpp"
+    LLM: "llm",
+    RAG: "rag",
+    Arduino: "arduino",
+    "C/C++": "cpp",
   };
 
   fetch("../dados.json")
@@ -79,7 +78,20 @@ document.addEventListener("DOMContentLoaded", () => {
        `;
 
       if (project.linkExternoEhVideo) {
-        youtubeIframe.style.display = "flex";
+        projectDescription.innerHTML =
+          projectDescription.innerHTML +
+          `<iframe
+            id="youtubeIframe"
+            class="fluid-video-wrapper"
+            width="650"
+            height="367"
+            src="${project.linkExterno}"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>`;
       }
     })
     .catch((error) => console.error(error));
