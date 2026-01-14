@@ -27,10 +27,10 @@
       "roleName": "Desenvolvedor Full Stack",
       "period": "Set 2025 - Dez 2025",
       "company": "20DASH",
-      "description": "No fim do ano de 2025, atuei como estagiário desenvolvedor web na empresa 20DASH. No back-end, colaborei no desenvolvimento de sistemas baseados em microsserviços, utilizando AWS Lambda (serverless) com o Chalice Framework, integrado a um banco de dados PostgreSQL hospedado no AWS RDS. Já no front-end, contribui no desenvolvimento de interfaces utilizando React.js junto ao Vite.js, focando em componentes reutilizáveis, boas práticas de estado e integração fluida com APIs."
+      "description": "No fim do ano de 2025, atuei como estagiário desenvolvedor full stack na empresa 20DASH. No back-end, colaborei no desenvolvimento de sistemas baseados em microsserviços, utilizando AWS Lambda (serverless) com o Chalice Framework, integrado a um banco de dados PostgreSQL hospedado no AWS RDS. Já no front-end, contribui no desenvolvimento de interfaces utilizando React.js junto ao Vite.js, focando em componentes reutilizáveis, boas práticas de estado e integração fluida com APIs."
     },
     "elevential": {
-      "roleName": "Desenvolvedor Web",
+      "roleName": "Desenvolvedor Back-end",
       "period": "Nov 2024 - Jan 2025",
       "company": "Elevential",
       "description": "No meu estágio na empresa Elevential, auxiliei, como programador Python, a desenvolver um projeto utilizando o Django Framework para integração com o banco de dados PostgreSQL para gerenciamento da base de dados. Além disso, tive participação no desenvolvimento front-end com Javascript, utilizando o framework Bootstrap."

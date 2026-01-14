@@ -27,10 +27,10 @@
       "roleName": "Full Stack Developer",
       "period": "Sep 2025 - Dec 2025",
       "company": "20DASH",
-      "description": "At the end of 2025, I worked as a Full-Stack Developer intern at 20DASH. On the back end, I collaborated on the development of microservices-based systems using AWS Lambda (serverless) with the Chalice Framework, integrated with a PostgreSQL database hosted on AWS RDS. On the front end, I contributed to interface development using React.js with Vite.js, focusing on reusable components, best practices in state management, and seamless API integration."
+      "description": "At the end of 2025, I worked as a Full Stack Developer intern at 20DASH. On the back end, I collaborated on the development of microservices-based systems using AWS Lambda (serverless) with the Chalice Framework, integrated with a PostgreSQL database hosted on AWS RDS. On the front end, I contributed to interface development using React.js with Vite.js, focusing on reusable components, best practices in state management, and seamless API integration."
     },
     "elevential": {
-      "roleName": "Web Developer",
+      "roleName": "Back-end Developer",
       "period": "Nov 2024 - Jan 2025",
       "company": "Elevential",
       "description": "During my internship at Elevential, I worked as a Python programmer contributing to a project with Django framework and integrated with a PostgreSQL database for database management. Additionally, I contributed to front-end development using Javascript and the Bootstrap framework"
