@@ -1,86 +1,122 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const projectTitle = document.getElementById("projectTitle");
-  const projectImage = document.getElementById("projectImage");
-  const skillsListTag = document.getElementById("skillsList");
-  const projectDescription = document.getElementById("projectDescription");
+export function createParagraphs(paragraphsList) {
+	const projectDescription = document.getElementById('projectDescription');
+	paragraphsList.map((paragraph) => {
+		const newParagraph = document.createElement('p');
+		newParagraph.innerHTML = paragraph;
+		newParagraph.className = 'project-description';
+		projectDescription.appendChild(newParagraph);
+	});
+	return paragraphsList;
+}
 
-  // Obtém ID
-  const params = new URLSearchParams(window.location.search);
-  const projectId = params.get("id");
+export async function loadProjectPage() {
+	if (window.location.pathname !== '/projetos/') return;
 
-  function returnHome() {
-    window.location.href = "/";
-  }
+	// Obtém ID
+	const params = new URLSearchParams(window.location.search);
+	const projectId = params.get('id');
 
-  // Verifica de ID existe
-  if (!projectId) returnHome();
+	function returnHome() {
+		window.location.href = '/';
+	}
 
-  // Verifica se o ID é um número
-  const num = Number(projectId);
-  if (Number.isNaN(num) || num <= 0) returnHome();
+	// Verifica de ID existe
+	if (!projectId) returnHome();
 
-  const classMap = {
-    "Next.js": "next",
-    HTML: "html",
-    CSS: "css",
-    JavaScript: "javascript",
-    "React.js": "react",
-    Bootstrap: "bootstrap",
-    Python: "python",
-    Django: "django",
-    Chalice: "chalice",
-    AWS: "aws",
-    Docker: "docker",
-    PostgreSQL: "postgresql",
-    SQL: "sql",
-    LLM: "llm",
-    RAG: "rag",
-    Arduino: "arduino",
-    "C/C++": "cpp",
-  };
+	// Verifica se o ID é um número
+	const num = Number(projectId);
+	if (Number.isNaN(num) || num <= 0) returnHome();
 
-  fetch("../dados.json")
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error("Erro ao carregar o JSON: " + response.status);
-      }
-      return response.json();
-    })
-    .then((data) => {
-      // Verifica se o número de ID é menor ou igual ao tamanho do array data
-      if (data.length < projectId) returnHome();
+	const projectTitle = document.getElementById('projectTitle');
+	const projectImage = document.getElementById('projectImage');
+	const skillsListTag = document.getElementById('skillsList');
+	const projectDescription = document.getElementById('projectDescription');
 
-      // Carrega boxes com os projetos dinamicamente
-      const project = data[projectId - 1];
-      projectTitle.innerText = project.nome;
+	// Apaga
+	skillsListTag.innerHTML = '';
+	projectDescription.innerHTML = '';
+	projectTitle.innerText = '';
 
-      const skillsList = project.skills.split(";");
-      skillsList.map((skill) => {
-        const item = document.createElement("li");
-        item.innerHTML = `<h3>${skill}</h3>`;
-        item.className = classMap[skill] ?? "";
-        if (item.className) skillsListTag.appendChild(item);
-      });
+	const classMap = {
+		'Next.js': 'next',
+		HTML: 'html',
+		CSS: 'css',
+		JavaScript: 'javascript',
+		'React.js': 'react',
+		Bootstrap: 'bootstrap',
+		Python: 'python',
+		Django: 'django',
+		Chalice: 'chalice',
+		AWS: 'aws',
+		Docker: 'docker',
+		PostgreSQL: 'postgresql',
+		SQL: 'sql',
+		LLM: 'llm',
+		RAG: 'rag',
+		Arduino: 'arduino',
+		'C/C++': 'cpp',
+	};
 
-      const paragraphsList = project.descricao.split("\n");
-      paragraphsList.map((paragraph) => {
-        const newParagraph = document.createElement("p");
-        newParagraph.innerHTML = paragraph;
-        newParagraph.className = "project-description";
-        projectDescription.appendChild(newParagraph);
-      });
+	fetch('../dados.json')
+		.then((response) => {
+			if (!response.ok) {
+				throw new Error('Erro ao carregar o JSON: ' + response.status);
+			}
+			return response.json();
+		})
+		.then((data) => {
+			// Verifica se o número de ID é menor ou igual ao tamanho do array data
+			if (data.length < projectId) returnHome();
 
-      projectImage.style.cssText = `
+			// Carrega boxes com os projetos dinamicamente
+			const project = data[projectId - 1];
+
+			const skillsList = project.skills.split(';');
+			skillsList.map((skill) => {
+				const item = document.createElement('li');
+				item.innerHTML = `<h3>${skill}</h3>`;
+				item.className = classMap[skill] ?? '';
+				if (item.className) skillsListTag.appendChild(item);
+			});
+
+			const lang = i18next.resolvedLanguage || i18next.language;
+			if (lang === 'pt-BR') {
+				const paragraphsList = project.descricao.split('\n');
+				projectTitle.innerText = project.nome;
+				createParagraphs(paragraphsList);
+			} else if (lang) {
+				fetch(`../locales/${lang}/translation.json`)
+					.then((response) => {
+						if (!response.ok) {
+							throw new Error('Erro ao carregar o JSON: ' + response.status);
+						}
+						return response.json();
+					})
+					.then((data) => {
+						const paragraphsList =
+							data.portfolio.projects[projectId - 1]['full-description'].split(
+								'\n'
+							);
+						createParagraphs(paragraphsList);
+						const title = data.portfolio.projects[projectId - 1]['title'];
+						projectTitle.innerText = title;
+					})
+					.catch((error) => console.error(error));
+			} else {
+				return;
+			}
+
+			projectImage.style.cssText = `
       background-image: url(${project.imagemHero});
       background-size: cover;
       background-position: top;
       background-repeat: no-repeat;
        `;
 
-      if (project.linkExternoEhVideo) {
-        projectDescription.innerHTML =
-          projectDescription.innerHTML +
-          `<iframe
+			if (project.linkExternoEhVideo) {
+				projectDescription.innerHTML =
+					projectDescription.innerHTML +
+					`<iframe
             id="youtubeIframe"
             class="fluid-video-wrapper"
             width="650"
@@ -92,7 +128,11 @@ document.addEventListener("DOMContentLoaded", () => {
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
           ></iframe>`;
-      }
-    })
-    .catch((error) => console.error(error));
+			}
+		})
+		.catch((error) => console.error(error));
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+	loadProjectPage();
 });
