@@ -116,10 +116,11 @@
 #about .description {
   display: flex;
   justify-content: center;
+  width: 70%;
+  flex-direction: column;
 }
 
 #about .description #projectDescription {
-  width: 70%;
   display: flex;
   flex-direction: column;
   text-align: justify;
@@ -127,6 +128,11 @@
 
 #about p.project-description {
   text-align: justify;
+}
+
+#about #video-iframe {
+  display: flex;
+  align-items: center;
 }
 
 #about iframe {

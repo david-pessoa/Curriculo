@@ -1,5 +1,6 @@
 export function createParagraphs(paragraphsList) {
 	const projectDescription = document.getElementById('projectDescription');
+	projectDescription.innerHTML = '';
 	paragraphsList.map((paragraph) => {
 		const newParagraph = document.createElement('p');
 		newParagraph.innerHTML = paragraph;
@@ -9,7 +10,7 @@ export function createParagraphs(paragraphsList) {
 	return paragraphsList;
 }
 
-export async function loadProjectPage() {
+export function loadProjectPage() {
 	if (window.location.pathname !== '/projetos/') return;
 
 	// Obtém ID
@@ -31,6 +32,7 @@ export async function loadProjectPage() {
 	const projectImage = document.getElementById('projectImage');
 	const skillsListTag = document.getElementById('skillsList');
 	const projectDescription = document.getElementById('projectDescription');
+	const VideoFrame = document.getElementById('video-iframe');
 
 	// Apaga
 	skillsListTag.innerHTML = '';
@@ -114,9 +116,7 @@ export async function loadProjectPage() {
        `;
 
 			if (project.linkExternoEhVideo) {
-				projectDescription.innerHTML =
-					projectDescription.innerHTML +
-					`<iframe
+				VideoFrame.innerHTML = `<iframe
             id="youtubeIframe"
             class="fluid-video-wrapper"
             width="650"
