@@ -67,6 +67,9 @@
 #skillsList li.javascript h3 {
   color: #323330;
 }
+#skillsList li.typescript {
+  background-color: #237acc;
+}
 #skillsList li.bootstrap {
   background-color: #7723f7;
 }
@@ -126,6 +129,10 @@
   text-align: justify;
 }
 
+#projectDescription ul {
+  margin-left: 5%;
+}
+
 #about p.project-description {
   text-align: justify;
 }
@@ -144,6 +151,9 @@
     font-size: 5.5rem;
     padding-bottom: 1vh;
   }
+  #projectDescription ul {
+  margin-left: 10%;
+}
 }
 @media only screen and (max-width: 900px) {
   #skillsList {
@@ -177,6 +187,9 @@
   #about iframe {
     width: 100%;
   }
+  #projectDescription ul {
+  margin-left: 15%;
+}
 }
 
 @media only screen and (max-width: 370px) {
