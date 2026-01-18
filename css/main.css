@@ -2430,56 +2430,18 @@ header nav ul li .language:hover {
 
 /** 
  * ===================================================================
- * 16. stats - (_layout.scss)
+ * 16. certificate - (_layout.scss)
  *
  * ------------------------------------------------------------------- 
  */
-#stats {
-  background: #990047;
-  padding-top: 7.2rem;
-  padding-bottom: 6rem;
-  text-align: center;
-}
-#stats .row {
-  max-width: 1440px;
-}
-#stats .stat {
-  border-left: 1px solid rgba(255, 255, 255, 0.12);
-  min-height: 17.4rem;
-}
-#stats .stat:first-child {
-  border: none;
-}
-#stats .icon-part i {
-  font-size: 4.8rem;
-  color: #000000;
-}
-#stats .stat-count {
-  color: #ffffff;
-  font-size: 3.6rem;
-  margin-top: 1.2rem;
-  margin-bottom: 0;
-  font-family: "poppins-medium", sans-serif;
-  color: white;
-}
-#stats .stat-title {
-  color: rgba(255, 255, 255, 0.5);
-}
+
 
 /**
  * responsive:
- * stats
+ * certificate
  * -------------------------------------------------------------------
  */
-@media only screen and (max-width: 1024px) {
-  #stats .stat:nth-child(n) {
-    border-left: 1px solid rgba(255, 255, 255, 0.12);
-    padding-bottom: 1.5rem;
-  }
-  #stats .stat:nth-child(3n + 1) {
-    border: none;
-  }
-
+@media only screen and (max-width: 1325px) {
   .owl-theme .owl-controls .owl-buttons .owl-prev {
     left: 0px;
   }
@@ -2489,20 +2451,11 @@ header nav ul li .language:hover {
   }
 }
 @media only screen and (max-width: 768px) {
-  #stats .stat:nth-child(n) {
-    border-left: 1px solid rgba(255, 255, 255, 0.12);
-  }
-  #stats .stat:nth-child(2n + 1) {
-    border: none;
-  }
   .owl-theme .owl-controls .owl-buttons div::before {
     font-size: 4rem; /* Tamanho do ícone */
   }
 }
 @media only screen and (max-width: 600px) {
-  #stats .stat:nth-child(n) {
-    border: none;
-  }
   .owl-theme .owl-controls .owl-buttons div::before {
     font-size: 2.3rem; /* Tamanho do ícone */
   }
