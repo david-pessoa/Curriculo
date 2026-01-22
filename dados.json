@@ -1,5 +1,15 @@
 [
   {
+    "nome": "Incorporadora Costa Leste",
+    "miniDescricao": "Este projeto é meu primeiro trabalho como freelancer, em que desenvolvi uma solução para a empresa Incorporadora e Administradora Costa Leste registrar e gerenciar seus gastos, receitas, contratos e demais informações financeiras usando o framework Svelte. Clique aqui para saber mais!",
+    "linkExternoEhVideo": false,
+    "linkExterno": "",
+    "imagemHome": "images/portfolio/incorporadora.png",
+    "imagemHero": "../images/projetos-page/incorporadora.png",
+    "skills": "HTML;CSS;JavaScript;TypeScript;Svelte;PostgreSQL",
+    "descricao": "A empresa Incorporadora e Administradora Costa Leste precisava de uma solução para registrar e gerenciar seus gastos, receitas, contratos e demais informações financeiras. O uso do Excel já não atendia às necessidades do negócio, especialmente em termos de escalabilidade, integridade dos dados e segurança — limitações comuns em aplicativos tradicionais de planilhas.\nDiante desse cenário, desenvolvi um website utilizando Svelte, integrado a um banco de dados PostgreSQL, estruturado com tabelas que armazenam os dados da empresa. Além disso, implementei um dashboard interativo com gráficos que permitem uma visualização clara e objetiva dos gastos e ganhos, apoiando a tomada de decisão de forma mais eficiente. Caso tenha interesse, acesse aqui <a href='https://github.com/titoco3000/incorporadora-manager' target='_blank'>o repositório do projeto no GitHub</a>."
+  },
+  {
     "nome": "Clínica Odontológica",
     "miniDescricao": "Desenvolvi um website utilizando Next.js como projeto para uma clínica Odontológica de São Paulo. A aplicação inclui página inicial com apresentação dos serviços, avaliações de pacientes e perfis dos profissionais. Clique aqui para saber mais!",
     "linkExternoEhVideo": false,

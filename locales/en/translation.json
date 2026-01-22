@@ -87,6 +87,11 @@
 		"descriptionTitle": "Description",
 		"projects": [
 			{
+				"title": "Incorporadora Costa Leste",
+				"mini-description": "This project is my first freelance work, in which I developed a solution for the company Incorporadora Costa Leste to record and manage its expenses, revenues, contracts, and other financial information using the Svelte framework. Click here to learn more!",
+				"full-description": "Incorporadora Costa Leste needed a solution to record and manage its expenses, revenues, contracts, and other financial information. The use of Excel no longer met the company’s needs, especially in terms of scalability, data integrity, and security—common limitations of traditional spreadsheet applications.\nGiven this scenario, I was hired as a freelancer to develop a website using Svelte, integrated with a PostgreSQL database, structured with tables that store the company’s data. In addition, I implemented an interactive dashboard with charts that provide a clear and objective view of expenses and revenues, supporting more efficient decision-making. If you are interested, you can access <a href='https://github.com/titoco3000/incorporadora-manager' target='_blank'>the project repository on GitHub</a>."
+			},
+			{
 				"title": "Dental Clinic Website",
 				"mini-description": "I developed a website using Next.js as a project for a dental clinic in São Paulo. The application includes a homepage presenting services, patient reviews, and professional profiles. Click here to learn more!",
 				"full-description": "In January 2026, I completed the website I developed for a dental clinic in São Paulo, which you can view by <a href='https://clinicaodontologica.davidpessoa.com.br/' target='_blank'>clicking here</a>. The goal was to build a website capable of presenting the clinic (showcasing a carousel with images of the office at the top) and its professionals, displaying the services offered, showing contact information, and allowing patients to send emails to schedule appointments.\nThe main challenges during the development of this project were learning how to use Next.js and discovering the best way to ensure responsiveness across different screen sizes. If you are interested, check out <a href='https://github.com/david-pessoa/web-mobile-next' target='_blank'>the project repository on GitHub</a>."
