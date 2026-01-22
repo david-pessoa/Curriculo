@@ -45,6 +45,7 @@ export function loadProjectPage() {
 		CSS: 'css',
 		JavaScript: 'javascript',
 		TypeScript: 'typescript',
+		Svelte: 'svelte',
 		'React.js': 'react',
 		Bootstrap: 'bootstrap',
 		Python: 'python',

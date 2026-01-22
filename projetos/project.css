@@ -70,6 +70,9 @@
 #skillsList li.typescript {
   background-color: #237acc;
 }
+#skillsList li.svelte {
+  background-color: #F83D00;
+}
 #skillsList li.bootstrap {
   background-color: #7723f7;
 }
