@@ -1,202 +1,202 @@
 #hero {
-  background-color: #fef9f3;
-  padding-top: 8vh;
+	background-color: #fef9f3;
+	padding-top: 8vh;
 }
 
 #hero h1 {
-  text-align: center;
-  font-size: 8.4rem;
-  line-height: 1.071;
-  max-width: 900px;
-  margin-top: 0;
-  margin-bottom: 0.6rem;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--blue);
-  padding-bottom: 5vh;
+	text-align: center;
+	font-size: 8.4rem;
+	line-height: 1.071;
+	max-width: 900px;
+	margin-top: 0;
+	margin-bottom: 0.6rem;
+	margin-left: auto;
+	margin-right: auto;
+	color: var(--blue);
+	padding-bottom: 5vh;
 }
 
 #hero #projectImage {
-  height: 70vh;
-  width: 100%;
-  overflow: hidden;
+	height: 70vh;
+	width: 100%;
+	overflow: hidden;
 }
 
 #about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 #skillsList {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 3rem;
-  margin-bottom: 11rem;
-  margin-left: 0;
-  max-width: 90%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 3rem;
+	margin-bottom: 11rem;
+	margin-left: 0;
+	max-width: 90%;
 }
 #skillsList li {
-  width: 140px;
-  height: 40px;
-  border-radius: 40px;
-  list-style: none;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	width: 140px;
+	height: 40px;
+	border-radius: 40px;
+	list-style: none;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 #skillsList li h3 {
-  margin: 0;
-  color: #fff;
+	margin: 0;
+	color: #fff;
 }
 
 #skillsList li.next {
-  background-color: #000;
+	background-color: #000;
 }
 #skillsList li.html {
-  background-color: #e44d26;
+	background-color: #e44d26;
 }
 #skillsList li.css {
-  background-color: #1f72b6;
+	background-color: #1f72b6;
 }
 #skillsList li.javascript {
-  background-color: #f0db4f;
+	background-color: #f0db4f;
 }
 #skillsList li.javascript h3 {
-  color: #323330;
+	color: #323330;
 }
 #skillsList li.typescript {
-  background-color: #237acc;
+	background-color: #237acc;
 }
 #skillsList li.svelte {
-  background-color: #F83D00;
+	background-color: #f83d00;
 }
 #skillsList li.bootstrap {
-  background-color: #7723f7;
+	background-color: #7723f7;
 }
 #skillsList li.react {
-  background-color: #61dafb;
+	background-color: #61dafb;
 }
 #skillsList li.react h3 {
-  color: #303030;
+	color: #303030;
 }
 #skillsList li.python {
-  background-color: #306998;
+	background-color: #306998;
 }
 #skillsList li.django {
-  background-color: #092e1f;
+	background-color: #092e1f;
 }
 #skillsList li.chalice {
-  background-color: #36bfa5;
+	background-color: #36bfa5;
 }
 #skillsList li.aws {
-  background-color: #faa41c;
+	background-color: #faa41c;
 }
 #skillsList li.aws h3 {
-  color: #0f1111;
+	color: #0f1111;
 }
 #skillsList li.docker {
-  background-color: #2a91e2;
+	background-color: #2a91e2;
 }
 #skillsList li.postgresql {
-  background-color: #336791;
+	background-color: #336791;
 }
 #skillsList li.sql {
-  background-color: #3298da;
+	background-color: #3298da;
 }
 #skillsList li.arduino {
-  background-color: #008284;
+	background-color: #008284;
 }
 #skillsList li.cpp {
-  background-color: #6296cc;
+	background-color: #6296cc;
 }
 #skillsList li.llm {
-  background-color: #494949;
+	background-color: #494949;
 }
 #skillsList li.rag {
-  background-color: #722f37;
+	background-color: #722f37;
 }
 
 #about .description {
-  display: flex;
-  justify-content: center;
-  width: 70%;
-  flex-direction: column;
+	display: flex;
+	justify-content: center;
+	width: 70%;
+	flex-direction: column;
 }
 
 #about .description #projectDescription {
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
 }
 
 #projectDescription ul {
-  margin-left: 5%;
+	margin-left: 5%;
 }
 
 #about p.project-description {
-  text-align: justify;
+	text-align: justify;
 }
 
 #about #video-iframe {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 #about iframe {
-  margin: 3rem auto 0 auto;
+	margin: 3rem auto 0 auto;
 }
 
 @media only screen and (max-width: 1024px) {
-  #hero h1 {
-    font-size: 5.5rem;
-    padding-bottom: 1vh;
-  }
-  #projectDescription ul {
-  margin-left: 10%;
-}
+	#hero h1 {
+		font-size: 5.5rem;
+		padding-bottom: 1vh;
+	}
+	#projectDescription ul {
+		margin-left: 10%;
+	}
 }
 @media only screen and (max-width: 900px) {
-  #skillsList {
-    gap: 1rem;
-  }
-  #skillsList li {
-    width: 100px;
-    height: 38px;
-  }
-  #skillsList li h3 {
-    font-size: 1.5rem;
-  }
+	#skillsList {
+		gap: 1rem;
+	}
+	#skillsList li {
+		width: 100px;
+		height: 38px;
+	}
+	#skillsList li h3 {
+		font-size: 1.5rem;
+	}
 
-  #about iframe {
-    width: 90%;
-    aspect-ratio: 16/9;
-    height: auto;
-  }
+	#about iframe {
+		width: 90%;
+		aspect-ratio: 16/9;
+		height: auto;
+	}
 }
 
 @media only screen and (max-width: 768px) {
-  #hero h1 {
-    font-size: 5.2rem;
-  }
+	#hero h1 {
+		font-size: 5.2rem;
+	}
 }
 
 @media only screen and (max-width: 600px) {
-  #hero h1 {
-    font-size: 3rem;
-  }
-  #about iframe {
-    width: 100%;
-  }
-  #projectDescription ul {
-  margin-left: 15%;
-}
+	#hero h1 {
+		font-size: 3rem;
+	}
+	#about iframe {
+		width: 100%;
+	}
+	#projectDescription ul {
+		margin-left: 15%;
+	}
 }
 
 @media only screen and (max-width: 370px) {
-  #hero {
-    padding-top: 6.5rem;
-  }
+	#hero {
+		padding-top: 6.5rem;
+	}
 }
