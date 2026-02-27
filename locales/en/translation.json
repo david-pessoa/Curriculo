@@ -42,6 +42,12 @@
 			"description": "In 2023, I worked as a volunteer at Mackleaps Junior Company to develop the front-end (using HTML, CSS, Javascript and React.js) of a web application to display weather data from stations located on the Mackenzie campus. <a href='https://mackleaps.mackenzie.br/grafana/public-dashboards/4d1d71b3511f4151b6c042dbbbef965b?orgId=1&from=now-7d&to=now&timezone=browser' target='_blank'>Click here</a> to see the website."
 		},
 		"subTitleAcademicXP": "Academic Education",
+		"devFullstack": {
+			"courseName": "Full Stack Development",
+			"period": "March 2026 - Nov 2026",
+			"institution": "Faculdade de Informática e Administração Paulista (FIAP)",
+			"degree": "Postgraduate Program in Full Stack Development"
+		},
 		"computerScience": {
 			"courseName": "Computer Science",
 			"period": "Feb 2022 - Nov 2025",

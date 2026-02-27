@@ -42,6 +42,12 @@
 			"description": "Durante o ano de 2023, trabalhei na Empresa Júnior Mackleaps como voluntário para desenvolver o front-end (utilizando HTML, CSS, Javascript e React.js) de uma aplicação web para exibição dos dados do clima e tempo no campus do Mackenzie. <a href='https://mackleaps.mackenzie.br/grafana/public-dashboards/4d1d71b3511f4151b6c042dbbbef965b?orgId=1&from=now-7d&to=now&timezone=browser' target='_blank'>Clique aqui</a> para ver o website."
 		},
 		"subTitleAcademicXP": "Formação Acadêmica",
+		"devFullstack": {
+			"courseName": "Desenvolvimento Full Stack",
+			"period": "Março 2026 - Nov 2026",
+			"institution": "Faculdade de Informática e Administração Paulista (FIAP)",
+			"degree": "Pós-graduação em Desenvolvimento Full Stack"
+		},
 		"computerScience": {
 			"courseName": "Ciências da Computação",
 			"period": "Fev 2022 - Nov 2025",
@@ -53,7 +59,7 @@
 			"concierge": "Projeto Concierge"
 		},
 		"electronics": {
-			"courseName": "Electrônica",
+			"courseName": "Eletrônica",
 			"period": "Jan 2018 - Nov 2020",
 			"institution": "Liceu de Artes e Ofícios de São Paulo",
 			"degree": "Curso técnico em eletrônica integrado ao ensino médio",
