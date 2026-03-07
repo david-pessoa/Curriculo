@@ -1,72 +1,72 @@
 [
-  {
-    "nome": "Incorporadora Costa Leste",
-    "miniDescricao": "Este projeto é meu primeiro trabalho como freelancer, em que desenvolvi uma solução para a empresa Incorporadora e Administradora Costa Leste registrar e gerenciar seus gastos, receitas, contratos e demais informações financeiras usando o framework Svelte. Clique aqui para saber mais!",
-    "linkExternoEhVideo": false,
-    "linkExterno": "",
-    "imagemHome": "images/portfolio/incorporadora.png",
-    "imagemHero": "../images/projetos-page/incorporadora.png",
-    "skills": "HTML;CSS;JavaScript;TypeScript;Svelte;PostgreSQL",
-    "descricao": "A empresa Incorporadora e Administradora Costa Leste precisava de uma solução para registrar e gerenciar seus gastos, receitas, contratos e demais informações financeiras. O uso do Excel já não atendia às necessidades do negócio, especialmente em termos de escalabilidade, integridade dos dados e segurança — limitações comuns em aplicativos tradicionais de planilhas.\nDiante desse cenário, desenvolvi um website utilizando Svelte, integrado a um banco de dados PostgreSQL, estruturado com tabelas que armazenam os dados da empresa. Além disso, implementei um dashboard interativo com gráficos que permitem uma visualização clara e objetiva dos gastos e ganhos, apoiando a tomada de decisão de forma mais eficiente. Caso tenha interesse, acesse aqui <a href='https://github.com/titoco3000/incorporadora-manager' target='_blank'>o repositório do projeto no GitHub</a>."
-  },
-  {
-    "nome": "Clínica Odontológica",
-    "miniDescricao": "Desenvolvi um website utilizando Next.js como projeto para uma clínica Odontológica de São Paulo. A aplicação inclui página inicial com apresentação dos serviços, avaliações de pacientes e perfis dos profissionais. Clique aqui para saber mais!",
-    "linkExternoEhVideo": false,
-    "linkExterno": "https://clinicaodontologica.davidpessoa.com.br/",
-    "imagemHome": "images/portfolio/dentista.png",
-    "imagemHero": "../images/projetos-page/long-dentista.png",
-    "skills": "HTML;CSS;JavaScript;Next.js",
-    "descricao": "Em janeiro de 2026, completei o site que desenvolvi para uma Clínica Odontológica de São Paulo, que você pode ver <a href='https://clinicaodontologica.davidpessoa.com.br/' target='_blank'>clicando aqui</a>. O objetivo elaborar um site que fosse capaz de: apresentar a clínica (expondo um carrossel com as imagens do consultório no início) e os profissionais que nela trabalham, mostrar os serviços prestados, exibir as informações para contato e permitir que os pacientes enviem emails para marcar consultas.\nOs principais desafios durante o desenvolvimento do projeto foram aprender a usar o Next.js e descobrir a melhor maneira de garantir responsividade às telas do site. Caso tenha interesse, acesse aqui <a href='https://github.com/david-pessoa/web-mobile-next' target='_blank'>o repositório do projeto no GitHub</a>."
-  },
-  {
-    "nome": "SamsAI",
-    "miniDescricao": "Como TCC da minha graduação, desenvolvi, junto com meus amigos, uma aplicação utilizando o Django integrada ao modelo de IA, Sabiá-3, para auxiliar o poder Judiciário. A aplicação também é integrada ao RAG para fornecer contexto jurídico para o modelo, a fim de que ele consiga responder às perguntas dos usuários.",
-    "linkExternoEhVideo": false,
-    "linkExterno": "",
-    "imagemHome": "images/portfolio/samsai.png",
-    "imagemHero": "../images/projetos-page/long-samsai.png",
-    "skills": "LLM;RAG;HTML;CSS;JavaScript;Python;Django;PostgreSQL",
-    "descricao": "Em 2025, no último ano do curso de Ciências da Computação, elaborei, junto com meus amigos, o TCC com tema “Avaliação da performance de aplicação de LLM com RAG na resolução de questões do Direito Ambiental”. Tendo em vista a lentidão e a sobrecarga do sistema judiciário brasileiro devido ao grande número de processos em tramitação, o objetivo da pesquisa era avaliar se a arquitetura de um chatbot integrada ao modelo Sabiá-3, que implementa a técnica RAG para buscar trechos relevantes na legislação ambiental e fornecê-los como contexto ao modelo, era capaz de auxiliar o poder judiciário neste cenário. Para avaliar o desempenho da IA, selecionamos questões dos exames da OAB e ENADE (Direito) relacionadas ao meio ambiente.\nO front-end do chatbot, desenvolvido com HTML + CSS + JavaScript, foi inspirado nos layouts de grandes LLMs da atualidade, sendo assim a interface, além de possuir uma tela de conversa entre usuário e a IA, permite anexar arquivos PDF às mensagens enviadas. Já o back-end foi desenvolvido em Django, sendo responsável por: integrar o modelo Sabiá-3 via API; fazer consultas ao banco de dados vetorial; salvar, deletar e alterar dados das conversas do usuário no banco de dados PostgreSQL; e retornar informações para o front-end.\nO principal desafio deste projeto foi aprender a elaborar a arquitetura de LLM integrada ao RAG de maneira que o modelo apresentasse o maior desempenho possível. Além disso, no início, foi difícil integrar o front-end ao back-end, devido à necessidade de implementar múltiplas rotas para realizar o CRUD de conversas, mensagens e documentos, mas também as rotas de acesso às telas de conversa, cadastro e login. Caso tenha interesse, acesse aqui <a href='https://github.com/Cehiim/SamsAI' target='_blank'>o repositório do projeto no GitHub</a>."
-  },
-  {
-    "nome": "Estação Meteorológica",
-    "miniDescricao": "A fim de desenvolver minhas habilidades com o framework do Django do Python (e um pouco de front-end também), resolvi criar esta aplicação que obtém os dados da estação meteorológica da cidade selecionada e os exibem na tela. Os dados são obtidos da a partir da WeatherAPI.",
-    "linkExternoEhVideo": false,
-    "linkExterno": "",
-    "imagemHome": "images/portfolio/estacao-meteorologica.png",
-    "imagemHero": "../images/portfolio/estacao-meteorologica.png",
-    "skills": "HTML;CSS;JavaScript;Bootstrap;Python;Django;PostgreSQL",
-    "descricao": "A fim de desenvolver minhas habilidades com o framework do Django do Python (e um pouco de front-end também), resolvi criar uma aplicação de um site sobre o tempo, me inspirando no site da estação meteorológica do Mackenzie que desenvolvi enquanto estive na empresa júnior Mackleaps. O front-end do site, constituído de HTML + CSS + JavaScript e Bootstrap, conta com apenas uma única página, em que o usuário digita o nome de alguma cidade do Brasil ou do mundo no campo de busca e a API da WeatherAPI devolve as informações climáticas do local, que são exibidas num dashboard.\nJá o back-end é integrado a um banco de dados PostgreSQL, que guarda dados de todas as capitais do Brasil, repassa os nomes das capitais brasileiras para o front-end exibir abaixo do input, criando um autocomplete para auxiliar o usuário a encontrar as informações sobre o tempo da cidade que desejada, aumentando a usabilidade do website.\nO principal desafio deste projeto foi aprender a como usar o Bootstrap numa aplicação web, manipular elementos HTML usando o DOM e configurar gráficos no JavaScript usando a biblioteca Chart.js. Caso tenha interesse, acesse aqui <a href='https://github.com/david-pessoa/EstacaoMeteorologica' target='_blank'>o repositório do projeto no GitHub</a>."
-  },
-  {
-    "nome": "Banco de Django",
-    "miniDescricao": "Assim como o projeto da Estação Meteorológica, este é mais outro projeto meu para me aprimorar no framework Django e no front-end. Nessa aplicação, o usuário pode criar um cadastro e acessar sua conta para realizar saques, depósitos e até transferências por PIX, que podem ser consultadas no histórico de transações.",
-    "linkExternoEhVideo": false,
-    "linkExterno": "",
-    "imagemHome": "images/portfolio/banco-django.png",
-    "imagemHero": "../images/portfolio/banco-django.png",
-    "skills": "HTML;CSS;JavaScript;Bootstrap;Python;Django;PostgreSQL",
-    "descricao": "Assim como o projeto da Estação Meteorológica, este é mais outro projeto meu para me aprimorar no framework Django e no front-end que desenvolvi em dezembro de 2024. Nessa aplicação, o usuário pode criar um cadastro usando um CPF válido e acessar sua conta para realizar saques, depósitos e até transferências por PIX, que podem ser consultadas na tabela de histórico de transações.\nO que foi desafiador neste projeto foi aprender a usar o Django como um todo, pois ainda estava iniciando meu aprendizado neste framework. Sendo assim, foi difícil montar o back-end, que realiza as operações de CRUD no banco de dados PostgreSQL e deve atualizar as informações no front-end corretamente. Além disso, tive dificuldade em elaborar a tabela do histórico de transações e a validação do conteúdo nos inputs dos formulários de cadastro, mas consegui encontrar uma solução aplicando as bibliotecas datatables  e Parsley.js respectivamente. Caso tenha interesse, acesse aqui <a href='https://github.com/david-pessoa/Banco_do_Django' target='_blank'>o repositório do projeto no GitHub</a>."
-  },
-  {
-    "nome": "O Concierge",
-    "miniDescricao": "Durante a faculdade, desenvolvi um carrinho de controle remoto controlado por um aplicativo mobile usando Arduino, cujo objetivo era carregar objetos para seu usuário, a fim de poupar seus esforços, o Concierge.",
-    "linkExternoEhVideo": false,
-    "linkExterno": "",
-    "imagemHome": "images/portfolio/concierge.png",
-    "imagemHero": "../images/portfolio/concierge.png",
-    "skills": "Arduino;C/C++",
-    "descricao": "No 2º semestre do curso de Ciências da Computação, início do ano de 2022, desenvolvi um carrinho de controle remoto controlado por um aplicativo mobile usando Arduino, cujo objetivo era carregar objetos para seu usuário, a fim de poupar seus esforços. Como o carrinho realiza um trabalho semelhante ao concierge, empregado de um hotel responsável por carregar as bagagens dos hóspedes, resolvemos dar este nome a ele. O Concierge era constituído de uma placa Arduino UNO ligada a uma Ponte H para controle dos 4 motores responsáveis pelo movimento das rodas e um Módulo Bluetooth HC-05 para conexão com o aplicativo móvel que enviava os comandos de direção para o carrinho.\nAlém disso, para que não houvesse excesso de peso sobre o Concierge, uma balança e um display LCD I2C foram conectados ao Arduino a fim de que o peso dos itens carregados pudesse ser calculado e exibido na tela do display. Se houvesse mais de 1,5kg sobre o carrinho, o display indicaria excesso de peso. Caso tenha interesse, acesse aqui <a href='https://github.com/david-pessoa/Concierge_code' target='_blank'>o repositório do projeto no GitHub</a>."
-  },
-  {
-    "nome": "Estacionamento Automatizado",
-    "miniDescricao": "No último ano do curso de eletrônica no Liceu, construí uma maquete de um estacionamento automatizado como TCC. A maquete consistia num estacionamento em que os sensores de luminosidade colocados nas vagas detectavam a presença de um carro através da mudança de luminosidade sobre eles. Clique para saber mais!",
-    "linkExternoEhVideo": true,
-    "linkExterno": "https://www.youtube.com/embed/gnP4jFrD204?si=3ct6s9UI4jSX0j22",
-    "imagemHome": "images/portfolio/estacionamento-automatizado.jpg",
-    "imagemHero": "../images/projetos-page/estacionamento-automatizado.jpg",
-    "skills": "Arduino;C/C++;",
-    "descricao": "No último ano do curso técnico em eletrônica, em 2020, observando como é feito controle e monitoramento de veículos em alguns Shoppings Center na cidade de São Paulo, surgiu a ideia de fazer o TCC com tema “Estacionamento Automatizado”, como proposta para automatizar o controle e monitoramento de um estacionamento e garantir o direito dos idosos e deficientes de estacionar numa vaga especial, além de assegurar um controle mais preciso da utilização das vagas de modo geral. Sendo assim, o sistema dispõe de:<ul><li>sensores de luz LDR, para detectar a presença de veículos;</li><li>dois servo motores que atuam como as catracas de entrada e saída;</li><li>um LED RGB para cada vaga que indicará pelas suas cores se sua respectiva vaga está livre, ocupada ou livre apenas para deficientes;</li><li>um leitor RFID RC522 para uma das vagas especiais, para identificar se o carro estacionado naquela vaga pertence a um idoso e/ou deficiente por meio de uma tag;</li><li>um display LCD, para mostrar quantas vagas do estacionamento estão disponíveis;</li><li>um Módulo Bluetooth HC-05 responsável por enviar uma mensagem para o celular do segurança do estacionamento caso um veículo estacione na vaga preferencial sem a tag;</li><li>uma placa Arduino Mega programada para realizar as ações dos LEDs, do display e outros componentes. </li></ul>Desse modo, quando um carro entra no estacionamento, o sensor LDR na entrada do estacionamento detecta sua presença e a cancela de entrada se abre, a não ser que o estacionamento esteja lotado, neste caso a cancela não se abre o display exibe a mensagem “ESTACIONAMENTO LOTADO”. Numa vaga que está disponível, a cor do LED fica verde, caso ela seja preferencial sua cor será azul.\nPortanto, o TCC fornece uma solução para otimizar o tempo daqueles que buscam uma vaga em que possam estacionar, evitar a superlotação e a necessidade de mais funcionários para gerenciar as vagas. Caso tenha interesse, acesse aqui <a href='https://github.com/david-pessoa/EstacionamentoAutomatizado' target='_blank'>o repositório do projeto no GitHub</a>."
-  }
+	{
+		"nome": "Incorporadora Costa Leste",
+		"miniDescricao": "Este projeto é meu primeiro trabalho como freelancer, em que desenvolvi uma solução para a empresa Incorporadora e Administradora Costa Leste registrar e gerenciar seus gastos, receitas, contratos e demais informações financeiras usando o framework Svelte. Clique aqui para saber mais!",
+		"linkExternoEhVideo": false,
+		"linkExterno": "",
+		"imagemHome": "images/portfolio/incorporadora.png",
+		"imagemHero": "../images/projetos-page/incorporadora.png",
+		"skills": "HTML;CSS;JavaScript;TypeScript;Svelte;PostgreSQL",
+		"descricao": "A empresa Incorporadora e Administradora Costa Leste precisava de uma solução para registrar e gerenciar seus gastos, receitas, contratos e demais informações financeiras. O uso do Excel já não atendia às necessidades do negócio, especialmente em termos de escalabilidade, integridade dos dados e segurança — limitações comuns em aplicativos tradicionais de planilhas.\nDiante desse cenário, desenvolvi um website utilizando Svelte, integrado a um banco de dados PostgreSQL, estruturado com tabelas que armazenam os dados da empresa. Além disso, implementei um dashboard interativo com gráficos que permitem uma visualização clara e objetiva dos gastos e ganhos, apoiando a tomada de decisão de forma mais eficiente."
+	},
+	{
+		"nome": "Clínica Odontológica",
+		"miniDescricao": "Desenvolvi um website utilizando Next.js como projeto para uma clínica Odontológica de São Paulo. A aplicação inclui página inicial com apresentação dos serviços, avaliações de pacientes e perfis dos profissionais. Clique aqui para saber mais!",
+		"linkExternoEhVideo": false,
+		"linkExterno": "https://clinicaodontologica.davidpessoa.com.br/",
+		"imagemHome": "images/portfolio/dentista.png",
+		"imagemHero": "../images/projetos-page/long-dentista.png",
+		"skills": "HTML;CSS;JavaScript;Next.js",
+		"descricao": "Em janeiro de 2026, completei o site que desenvolvi para uma Clínica Odontológica de São Paulo, que você pode ver <a href='https://clinicaodontologica.davidpessoa.com.br/' target='_blank'>clicando aqui</a>. O objetivo elaborar um site que fosse capaz de: apresentar a clínica (expondo um carrossel com as imagens do consultório no início) e os profissionais que nela trabalham, mostrar os serviços prestados, exibir as informações para contato e permitir que os pacientes enviem emails para marcar consultas.\nOs principais desafios durante o desenvolvimento do projeto foram aprender a usar o Next.js e descobrir a melhor maneira de garantir responsividade às telas do site. Caso tenha interesse, acesse aqui <a href='https://github.com/david-pessoa/web-mobile-next' target='_blank'>o repositório do projeto no GitHub</a>."
+	},
+	{
+		"nome": "SamsAI",
+		"miniDescricao": "Como TCC da minha graduação, desenvolvi, junto com meus amigos, uma aplicação utilizando o Django integrada ao modelo de IA, Sabiá-3, para auxiliar o poder Judiciário. A aplicação também é integrada ao RAG para fornecer contexto jurídico para o modelo, a fim de que ele consiga responder às perguntas dos usuários.",
+		"linkExternoEhVideo": false,
+		"linkExterno": "",
+		"imagemHome": "images/portfolio/samsai.png",
+		"imagemHero": "../images/projetos-page/long-samsai.png",
+		"skills": "LLM;RAG;HTML;CSS;JavaScript;Python;Django;PostgreSQL",
+		"descricao": "Em 2025, no último ano do curso de Ciências da Computação, elaborei, junto com meus amigos, o TCC com tema “Avaliação da performance de aplicação de LLM com RAG na resolução de questões do Direito Ambiental”. Tendo em vista a lentidão e a sobrecarga do sistema judiciário brasileiro devido ao grande número de processos em tramitação, o objetivo da pesquisa era avaliar se a arquitetura de um chatbot integrada ao modelo Sabiá-3, que implementa a técnica RAG para buscar trechos relevantes na legislação ambiental e fornecê-los como contexto ao modelo, era capaz de auxiliar o poder judiciário neste cenário. Para avaliar o desempenho da IA, selecionamos questões dos exames da OAB e ENADE (Direito) relacionadas ao meio ambiente.\nO front-end do chatbot, desenvolvido com HTML + CSS + JavaScript, foi inspirado nos layouts de grandes LLMs da atualidade, sendo assim a interface, além de possuir uma tela de conversa entre usuário e a IA, permite anexar arquivos PDF às mensagens enviadas. Já o back-end foi desenvolvido em Django, sendo responsável por: integrar o modelo Sabiá-3 via API; fazer consultas ao banco de dados vetorial; salvar, deletar e alterar dados das conversas do usuário no banco de dados PostgreSQL; e retornar informações para o front-end.\nO principal desafio deste projeto foi aprender a elaborar a arquitetura de LLM integrada ao RAG de maneira que o modelo apresentasse o maior desempenho possível. Além disso, no início, foi difícil integrar o front-end ao back-end, devido à necessidade de implementar múltiplas rotas para realizar o CRUD de conversas, mensagens e documentos, mas também as rotas de acesso às telas de conversa, cadastro e login. Caso tenha interesse, acesse aqui <a href='https://github.com/Cehiim/SamsAI' target='_blank'>o repositório do projeto no GitHub</a>."
+	},
+	{
+		"nome": "Estação Meteorológica",
+		"miniDescricao": "A fim de desenvolver minhas habilidades com o framework do Django do Python (e um pouco de front-end também), resolvi criar esta aplicação que obtém os dados da estação meteorológica da cidade selecionada e os exibem na tela. Os dados são obtidos da a partir da WeatherAPI.",
+		"linkExternoEhVideo": false,
+		"linkExterno": "",
+		"imagemHome": "images/portfolio/estacao-meteorologica.png",
+		"imagemHero": "../images/portfolio/estacao-meteorologica.png",
+		"skills": "HTML;CSS;JavaScript;Bootstrap;Python;Django;PostgreSQL",
+		"descricao": "A fim de desenvolver minhas habilidades com o framework do Django do Python (e um pouco de front-end também), resolvi criar uma aplicação de um site sobre o tempo, me inspirando no site da estação meteorológica do Mackenzie que desenvolvi enquanto estive na empresa júnior Mackleaps. O front-end do site, constituído de HTML + CSS + JavaScript e Bootstrap, conta com apenas uma única página, em que o usuário digita o nome de alguma cidade do Brasil ou do mundo no campo de busca e a API da WeatherAPI devolve as informações climáticas do local, que são exibidas num dashboard.\nJá o back-end é integrado a um banco de dados PostgreSQL, que guarda dados de todas as capitais do Brasil, repassa os nomes das capitais brasileiras para o front-end exibir abaixo do input, criando um autocomplete para auxiliar o usuário a encontrar as informações sobre o tempo da cidade que desejada, aumentando a usabilidade do website.\nO principal desafio deste projeto foi aprender a como usar o Bootstrap numa aplicação web, manipular elementos HTML usando o DOM e configurar gráficos no JavaScript usando a biblioteca Chart.js. Caso tenha interesse, acesse aqui <a href='https://github.com/david-pessoa/EstacaoMeteorologica' target='_blank'>o repositório do projeto no GitHub</a>."
+	},
+	{
+		"nome": "Banco de Django",
+		"miniDescricao": "Assim como o projeto da Estação Meteorológica, este é mais outro projeto meu para me aprimorar no framework Django e no front-end. Nessa aplicação, o usuário pode criar um cadastro e acessar sua conta para realizar saques, depósitos e até transferências por PIX, que podem ser consultadas no histórico de transações.",
+		"linkExternoEhVideo": false,
+		"linkExterno": "",
+		"imagemHome": "images/portfolio/banco-django.png",
+		"imagemHero": "../images/portfolio/banco-django.png",
+		"skills": "HTML;CSS;JavaScript;Bootstrap;Python;Django;PostgreSQL",
+		"descricao": "Assim como o projeto da Estação Meteorológica, este é mais outro projeto meu para me aprimorar no framework Django e no front-end que desenvolvi em dezembro de 2024. Nessa aplicação, o usuário pode criar um cadastro usando um CPF válido e acessar sua conta para realizar saques, depósitos e até transferências por PIX, que podem ser consultadas na tabela de histórico de transações.\nO que foi desafiador neste projeto foi aprender a usar o Django como um todo, pois ainda estava iniciando meu aprendizado neste framework. Sendo assim, foi difícil montar o back-end, que realiza as operações de CRUD no banco de dados PostgreSQL e deve atualizar as informações no front-end corretamente. Além disso, tive dificuldade em elaborar a tabela do histórico de transações e a validação do conteúdo nos inputs dos formulários de cadastro, mas consegui encontrar uma solução aplicando as bibliotecas datatables  e Parsley.js respectivamente. Caso tenha interesse, acesse aqui <a href='https://github.com/david-pessoa/Banco_do_Django' target='_blank'>o repositório do projeto no GitHub</a>."
+	},
+	{
+		"nome": "O Concierge",
+		"miniDescricao": "Durante a faculdade, desenvolvi um carrinho de controle remoto controlado por um aplicativo mobile usando Arduino, cujo objetivo era carregar objetos para seu usuário, a fim de poupar seus esforços, o Concierge.",
+		"linkExternoEhVideo": false,
+		"linkExterno": "",
+		"imagemHome": "images/portfolio/concierge.png",
+		"imagemHero": "../images/portfolio/concierge.png",
+		"skills": "Arduino;C/C++",
+		"descricao": "No 2º semestre do curso de Ciências da Computação, início do ano de 2022, desenvolvi um carrinho de controle remoto controlado por um aplicativo mobile usando Arduino, cujo objetivo era carregar objetos para seu usuário, a fim de poupar seus esforços. Como o carrinho realiza um trabalho semelhante ao concierge, empregado de um hotel responsável por carregar as bagagens dos hóspedes, resolvemos dar este nome a ele. O Concierge era constituído de uma placa Arduino UNO ligada a uma Ponte H para controle dos 4 motores responsáveis pelo movimento das rodas e um Módulo Bluetooth HC-05 para conexão com o aplicativo móvel que enviava os comandos de direção para o carrinho.\nAlém disso, para que não houvesse excesso de peso sobre o Concierge, uma balança e um display LCD I2C foram conectados ao Arduino a fim de que o peso dos itens carregados pudesse ser calculado e exibido na tela do display. Se houvesse mais de 1,5kg sobre o carrinho, o display indicaria excesso de peso. Caso tenha interesse, acesse aqui <a href='https://github.com/david-pessoa/Concierge_code' target='_blank'>o repositório do projeto no GitHub</a>."
+	},
+	{
+		"nome": "Estacionamento Automatizado",
+		"miniDescricao": "No último ano do curso de eletrônica no Liceu, construí uma maquete de um estacionamento automatizado como TCC. A maquete consistia num estacionamento em que os sensores de luminosidade colocados nas vagas detectavam a presença de um carro através da mudança de luminosidade sobre eles. Clique para saber mais!",
+		"linkExternoEhVideo": true,
+		"linkExterno": "https://www.youtube.com/embed/gnP4jFrD204?si=3ct6s9UI4jSX0j22",
+		"imagemHome": "images/portfolio/estacionamento-automatizado.jpg",
+		"imagemHero": "../images/projetos-page/estacionamento-automatizado.jpg",
+		"skills": "Arduino;C/C++;",
+		"descricao": "No último ano do curso técnico em eletrônica, em 2020, observando como é feito controle e monitoramento de veículos em alguns Shoppings Center na cidade de São Paulo, surgiu a ideia de fazer o TCC com tema “Estacionamento Automatizado”, como proposta para automatizar o controle e monitoramento de um estacionamento e garantir o direito dos idosos e deficientes de estacionar numa vaga especial, além de assegurar um controle mais preciso da utilização das vagas de modo geral. Sendo assim, o sistema dispõe de:<ul><li>sensores de luz LDR, para detectar a presença de veículos;</li><li>dois servo motores que atuam como as catracas de entrada e saída;</li><li>um LED RGB para cada vaga que indicará pelas suas cores se sua respectiva vaga está livre, ocupada ou livre apenas para deficientes;</li><li>um leitor RFID RC522 para uma das vagas especiais, para identificar se o carro estacionado naquela vaga pertence a um idoso e/ou deficiente por meio de uma tag;</li><li>um display LCD, para mostrar quantas vagas do estacionamento estão disponíveis;</li><li>um Módulo Bluetooth HC-05 responsável por enviar uma mensagem para o celular do segurança do estacionamento caso um veículo estacione na vaga preferencial sem a tag;</li><li>uma placa Arduino Mega programada para realizar as ações dos LEDs, do display e outros componentes. </li></ul>Desse modo, quando um carro entra no estacionamento, o sensor LDR na entrada do estacionamento detecta sua presença e a cancela de entrada se abre, a não ser que o estacionamento esteja lotado, neste caso a cancela não se abre o display exibe a mensagem “ESTACIONAMENTO LOTADO”. Numa vaga que está disponível, a cor do LED fica verde, caso ela seja preferencial sua cor será azul.\nPortanto, o TCC fornece uma solução para otimizar o tempo daqueles que buscam uma vaga em que possam estacionar, evitar a superlotação e a necessidade de mais funcionários para gerenciar as vagas. Caso tenha interesse, acesse aqui <a href='https://github.com/david-pessoa/EstacionamentoAutomatizado' target='_blank'>o repositório do projeto no GitHub</a>."
+	}
 ]
