@@ -133,6 +133,7 @@
 		"subTitle": "Certificates",
 		"title": "My Certificates",
 		"carousel": {
+			"dotnet": "Certificate of Completion - Programming Back-end .NET with C#",
 			"django": "Certificate of Completion - Python Programming with Django",
 			"efset": "EF SET English Proficiency Certificate - C1",
 			"IABrasil": "AI for EVERYONE Course Certificate",

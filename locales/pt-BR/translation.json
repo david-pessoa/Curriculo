@@ -133,6 +133,7 @@
 		"subTitle": "Certificados",
 		"title": "Meus Certificados",
 		"carousel": {
+			"dotnet": "Certificado do curso Programando Back-end .NET com C#",
 			"django": "Certificado do curso de Programação em Python com Django",
 			"efset": "Certificado de Proficiência Eficaz C1 em Inglês EF SET",
 			"IABrasil": "Certificado do curso de IA para Todos (Movimento IA Brasil)",
