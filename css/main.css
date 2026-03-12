@@ -415,7 +415,7 @@ td:last-child {
  */
 button,
 .button {
-	margin-bottom: 1.2;
+	margin-bottom: 1.2rem;
 }
 fieldset {
 	margin-bottom: 1.5rem;
@@ -1775,6 +1775,7 @@ header nav ul li .language:hover {
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 2rem;
+	margin-left: 0 !important;
 }
 #resume .resume-header .soft-skills-list ul h4 {
 	margin-top: 0.7rem;
@@ -1799,6 +1800,7 @@ header nav ul li .language:hover {
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 3rem;
+	margin-left: 0 !important;
 }
 
 #resume .resume-header .skills-icons ul li img {
@@ -1881,6 +1883,10 @@ header nav ul li .language:hover {
 
 #resume .timeline-content p {
 	text-align: justify;
+}
+
+a[title='Download CV'].button.button-primary {
+	margin: 0 !important;
 }
 
 /**

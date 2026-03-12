@@ -3,6 +3,7 @@
 		"home": "Home",
 		"about": "About me",
 		"resume": "Resume",
+		"skills": "Skills",
 		"projects": "Projects",
 		"certificates": "Certificates",
 		"contact": "Contact"
@@ -65,7 +66,7 @@
 			"degree": "Electronics Technical course integrated to high school",
 			"TCC": "Automated Parking Lot (Capstone Project)"
 		},
-		"subTitleSkills": "Skills",
+		"titleSkills": "Skills",
 		"softSkills": {
 			"communication": {
 				"title": "Communication",

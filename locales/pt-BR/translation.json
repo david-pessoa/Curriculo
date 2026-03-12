@@ -3,6 +3,7 @@
 		"home": "Página Inicial",
 		"about": "Sobre mim",
 		"resume": "Currículo",
+		"skills": "Habilidades",
 		"projects": "Projetos",
 		"certificates": "Certificados",
 		"contact": "Contato"
@@ -65,7 +66,7 @@
 			"degree": "Curso técnico em eletrônica integrado ao ensino médio",
 			"TCC": "Estacionamento Automatizado (TCC)"
 		},
-		"subTitleSkills": "Habilidades",
+		"titleSkills": "Habilidades",
 		"softSkills": {
 			"communication": {
 				"title": "Comunicação",
