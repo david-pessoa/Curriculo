@@ -10,7 +10,7 @@
 	},
 	"intro": {
 		"title": "I'm David Pessoa",
-		"job1": "Software Developer",
+		"job1": "Full Stack Developer",
 		"job2": "Computer Scientist",
 		"button": "More about me"
 	},
@@ -18,7 +18,7 @@
 		"subTitle": "About me",
 		"title": "Let me introduce myself",
 		"description": "Hello! I'm David Pessoa, Software Developer currently pursuing a postgraduate degree in Full Stack Development at FIAP and Computer Science graduate from Mackenzie Presbyterian University",
-		"aspirations": "I aim to work as a Software Engineer, improving my skills in web, software and mobile applications, while gaining experience in software architecture, project management."
+		"experience": "I have experience in Full Stack development, focusing on APIs, microservices, and cloud-based applications. I work with Python, .NET, React, Next.js, and AWS, following software engineering best practices. My interests include system architecture, distributed systems, and applied artificial intelligence, with a focus on building scalable and reliable solutions that meet business needs."
 	},
 	"resume": {
 		"subTitleResume": "Resume",

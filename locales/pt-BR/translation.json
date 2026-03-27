@@ -10,7 +10,7 @@
 	},
 	"intro": {
 		"title": "Sou David Pessoa",
-		"job1": "Desenvolvedor de Software",
+		"job1": "Desenvolvedor Full Stack",
 		"job2": "Cientista da Computação",
 		"button": "Mais sobre mim"
 	},
@@ -18,7 +18,7 @@
 		"subTitle": "Sobre mim",
 		"title": "Deixe-me introduzir",
 		"description": "Olá! Sou David Pessoa, Desenvolvedor de Software cursando a Pós-Tech de Desenvolvimento Full Stack na FIAP e recém-formado em Ciências da Computação pelo Mackenzie.",
-		"aspirations": "Desejo atuar como Engenheiro de Software, aprimorando minhas habilidades em desenvolvimento de sites, softwares e aplicativos, ganhando experiência em arquitetura de softwares e gerenciamento de projetos."
+		"experience": "Tenho experiência em desenvolvimento Full Stack, com foco na construção de APIs, microsserviços e aplicações em cloud. Trabalho com Python, .NET, React, Next e AWS e boas práticas de engenharia de software. Possuo interesse em arquitetura de sistemas, sistemas distribuídos e inteligência artificial aplicada, buscando sempre desenvolver soluções escaláveis, organizadas e alinhadas às necessidades do negócio."
 	},
 	"resume": {
 		"subTitleResume": "Currículo",
