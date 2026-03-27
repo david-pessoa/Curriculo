@@ -31,7 +31,7 @@ i18next.on('languageChanged', () => {
 	loadProjectPage();
 });
 
-async function changeLanguage(lng) {
+export async function changeLanguage(lng) {
 	await i18next.changeLanguage(lng);
 	updateContent();
 }

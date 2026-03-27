@@ -6,9 +6,20 @@
  */
 
 import { loadProjectsList } from './projects-list.js';
+import { changeLanguage } from './i18n.js';
 
 (function ($) {
 	'use strict';
+
+	/*---------------------------------------------------- */
+	/* Change language based on the parameter (if given)
+	------------------------------------------------------ */
+	$(window).ready(function () {
+		// Obtain language parameter
+		const params = new URLSearchParams(window.location.search);
+		const language = params.get('lang');
+		if (language) changeLanguage(language);
+	});
 
 	/*---------------------------------------------------- */
 	/* Preloader
