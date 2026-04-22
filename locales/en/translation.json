@@ -134,6 +134,8 @@
 		"subTitle": "Certificates",
 		"title": "My Certificates",
 		"carousel": {
+			"googleIntroGenAI": "Certificate of Completion - Introduction to Generative AI",
+			"googleIntroLLM": "Certificate of Completion - Introduction to Large Language Models",
 			"dotnet": "Certificate of Completion - Programming Back-end .NET with C#",
 			"django": "Certificate of Completion - Python Programming with Django",
 			"efset": "EF SET English Proficiency Certificate - C1",

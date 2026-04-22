@@ -134,6 +134,8 @@
 		"subTitle": "Certificados",
 		"title": "Meus Certificados",
 		"carousel": {
+			"googleIntroGenAI": "Certificado do curso de Introdução à Inteligência Artificial Generativa",
+			"googleIntroLLM": "Certificado do curso de Introdução aos Large Language Models",
 			"dotnet": "Certificado do curso Programando Back-end .NET com C#",
 			"django": "Certificado do curso de Programação em Python com Django",
 			"efset": "Certificado de Proficiência Eficaz C1 em Inglês EF SET",
