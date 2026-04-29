@@ -59,6 +59,9 @@ export function loadProjectPage() {
 		RAG: 'rag',
 		Arduino: 'arduino',
 		'C/C++': 'cpp',
+		OutSystems: 'outsystems',
+		'Low Code': 'lowcode',
+		'C#': 'csharp'
 	};
 
 	fetch('../dados.json')

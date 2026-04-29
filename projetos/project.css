@@ -27,7 +27,7 @@
 	flex-direction: column;
 	align-items: center;
 }
-
+/* Skills tags */
 #skillsList {
 	display: flex;
 	justify-content: center;
@@ -52,6 +52,7 @@
 	color: #fff;
 }
 
+/* Front-end skills */
 #skillsList li.next {
 	background-color: #000;
 }
@@ -82,8 +83,13 @@
 #skillsList li.react h3 {
 	color: #303030;
 }
+
+/* Back-end skills */
 #skillsList li.python {
 	background-color: #306998;
+}
+#skillsList li.csharp {
+	background-color: #953DAC;
 }
 #skillsList li.django {
 	background-color: #092e1f;
@@ -115,8 +121,16 @@
 #skillsList li.llm {
 	background-color: #494949;
 }
+
+/* Others */
 #skillsList li.rag {
 	background-color: #722f37;
+}
+#skillsList li.outsystems {
+	background-color: #F82601;
+}
+#skillsList li.lowcode {
+	background-color: #34b6a5;
 }
 
 #about .description {

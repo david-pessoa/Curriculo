@@ -94,6 +94,11 @@
 		"descriptionTitle": "Description",
 		"projects": [
 			{
+				"title": "Edify",
+				"mini-description": "Mini description of Edify",
+				"full-description": "Long description of Edify"
+			},
+			{
 				"title": "Incorporadora Costa Leste",
 				"mini-description": "This project is my first freelance work, in which I developed a solution for the company Incorporadora Costa Leste to record and manage its expenses, revenues, contracts, and other financial information using the Svelte framework. Click here to learn more!",
 				"full-description": "Incorporadora Costa Leste needed a solution to record and manage its expenses, revenues, contracts, and other financial information. The use of Excel no longer met the company’s needs, especially in terms of scalability, data integrity, and security—common limitations of traditional spreadsheet applications.\nGiven this scenario, I was hired as a freelancer to develop a website using Svelte, integrated with a PostgreSQL database, structured with tables that store the company’s data. In addition, I implemented an interactive dashboard with charts that provide a clear and objective view of expenses and revenues, supporting more efficient decision-making."

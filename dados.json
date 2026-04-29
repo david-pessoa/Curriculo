@@ -1,5 +1,15 @@
 [
 	{
+		"nome": "Edify",
+		"miniDescricao": "mini-descrição do edify",
+		"linkExternoEhVideo": false,
+		"linkExterno": "",
+		"imagemHome": "images/portfolio/edify.png",
+		"imagemHero": "../images/projetos-page/edify-post.png",
+		"skills": "OutSystems;Low Code;C#",
+		"descricao": "Descrição do Edify"
+	},
+	{
 		"nome": "Incorporadora Costa Leste",
 		"miniDescricao": "Este projeto é meu primeiro trabalho como freelancer, em que desenvolvi uma solução para a empresa Incorporadora e Administradora Costa Leste registrar e gerenciar seus gastos, receitas, contratos e demais informações financeiras usando o framework Svelte. Clique aqui para saber mais!",
 		"linkExternoEhVideo": false,
