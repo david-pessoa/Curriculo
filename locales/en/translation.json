@@ -138,16 +138,40 @@
 	"certificates": {
 		"subTitle": "Certificates",
 		"title": "My Certificates",
-		"carousel": {
-			"googleIntroGenAI": "Certificate of Completion - Introduction to Generative AI",
-			"googleIntroLLM": "Certificate of Completion - Introduction to Large Language Models",
-			"dotnet": "Certificate of Completion - Programming Back-end .NET with C#",
-			"django": "Certificate of Completion - Python Programming with Django",
-			"efset": "EF SET English Proficiency Certificate - C1",
-			"IABrasil": "AI for EVERYONE Course Certificate",
-			"mackleaps": "Certificate of Completion - Software Residence at Mackleaps",
-			"monitoria": "Teaching Assistant on Algorithms and Programming II Certificate"
-		}
+		"carousel": [
+			{
+				"titulo": "Certificate of Completion - Introduction to Generative AI",
+				"imageDescription": "Introduction to Gen AI Badge"
+			},
+			{
+				"titulo": "Certificate of Completion - Introduction to Large Language Models",
+				"imageDescription": "Introduction to Large Language Models Badge"
+			},
+			{
+				"titulo": "Certificate of Completion - Programming Back-end .NET with C#",
+				"imageDescription": "Back-end .NET Course Certificate"
+			},
+			{
+				"titulo": "Certificate of Completion - Python Programming with Django",
+				"imageDescription": "Django Course Certificate"
+			},
+			{
+				"titulo": "EF SET English Proficiency Certificate - C1",
+				"imageDescription": "EF SET English Proficiency Certificate"
+			},
+			{
+				"titulo": "AI for EVERYONE Course Certificate",
+				"imageDescription": "AI for EVERYONE Course Certificate"
+			},
+			{
+				"titulo": "Certificate of Completion - Software Residence at Mackleaps",
+				"imageDescription": "Mackleaps Certificate"
+			},
+			{
+				"titulo": "Teaching Assistant on Algorithms and Programming II Certificate",
+				"imageDescription": "Teaching Assistant Certificate"
+			}
+		]
 	},
 	"contact": {
 		"subTitle": "Contact",

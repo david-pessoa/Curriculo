@@ -138,16 +138,40 @@
 	"certificates": {
 		"subTitle": "Certificados",
 		"title": "Meus Certificados",
-		"carousel": {
-			"googleIntroGenAI": "Certificado do curso de Introdução à Inteligência Artificial Generativa",
-			"googleIntroLLM": "Certificado do curso de Introdução aos Large Language Models",
-			"dotnet": "Certificado do curso Programando Back-end .NET com C#",
-			"django": "Certificado do curso de Programação em Python com Django",
-			"efset": "Certificado de Proficiência Eficaz C1 em Inglês EF SET",
-			"IABrasil": "Certificado do curso de IA para Todos (Movimento IA Brasil)",
-			"mackleaps": "Certificado do curso de Residência de Software do Mackleaps",
-			"monitoria": "Certificado de Monitoria em Algoritmos e Programação II"
-		}
+		"carousel": [
+			{
+				"titulo": "Certificado do curso de Introdução à Inteligência Artificial Generativa",
+				"imageDescription": "Badge do curso de Introdução a Gen AI"
+			},
+			{
+				"titulo": "Certificado do curso de Introdução aos Large Language Models",
+				"imageDescription": "Badge do curso de Introdução aos LLMs"
+			},
+			{
+				"titulo": "Certificado do curso Programando Back-end .NET com C#",
+				"imageDescription": "Certificado Curso Back-end .NET"
+			},
+			{
+				"titulo": "Certificado do curso de Programação em Python com Django",
+				"imageDescription": "Certificado Curso de Django"
+			},
+			{
+				"titulo": "Certificado de Proficiência Eficaz C1 em Inglês EF SET",
+				"imageDescription": "Certificado de Inglês da EFSET"
+			},
+			{
+				"titulo": "Certificado do curso de IA para Todos (Movimento IA Brasil)",
+				"imageDescription": "Certificado do curso IA para todos"
+			},
+			{
+				"titulo": "Certificado do curso de Residência de Software do Mackleaps",
+				"imageDescription": "Certificado Mackleaps"
+			},
+			{
+				"titulo": "Certificado de Monitoria em Algoritmos e Programação II",
+				"imageDescription": "Certificado da Monitoria"
+			}
+		]
 	},
 	"contact": {
 		"subTitle": "Contato",
