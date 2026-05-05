@@ -1,5 +1,5 @@
 import { loadProjectPage } from '../projetos/project.js';
-import { loadProjectsList } from './projects-list.js';
+import { loadProjectsList, loadCertificatesList } from './loadLists.js';
 
 async function i18nextInit() {
 	await i18next
@@ -28,6 +28,7 @@ function updateContent() {
 
 i18next.on('languageChanged', () => {
 	loadProjectsList();
+	loadCertificatesList();
 	loadProjectPage();
 });
 

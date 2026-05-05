@@ -114,12 +114,6 @@
 		},
 		{
 			"titulo": "Certificado do curso de IA para Todos (Movimento IA Brasil)",
-			"link": "https://www.skills.google/public_profiles/6c9bab69-6090-458a-bf56-de1248b18c8e/badges/23751369",
-			"imagePath": "images/certificados/Introduction-to-Gen-AI.png",
-			"imageDescription": "Badge do curso de Introdução a Gen AI"
-		},
-		{
-			"titulo": "Certificado do curso de Introdução à Inteligência Artificial Generativa",
 			"link": "#",
 			"imagePath": "images/certificados/Certificado-IA-para-todos.avif",
 			"imageDescription": "Certificado do curso IA para todos"

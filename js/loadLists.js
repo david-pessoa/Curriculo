@@ -38,7 +38,10 @@ export async function loadProjectsList() {
 
 export async function loadCertificatesList() {
 	const certificatesList = document.getElementById('owl-slider');
-	if (!certificatesList) return;
+	if (!certificatesList) {
+		console.log('deu ruim');
+		return;
+	}
 
 	certificatesList.innerHTML = '';
 
@@ -53,27 +56,40 @@ export async function loadCertificatesList() {
 		})
 		.then((data) => {
 			// Carrega boxes com os projetos dinamicamente
-			const certificates = data;
-			certificates.map((project, i) => {
+			const certificates = data.certificados;
+			certificates.map((certificate, i) => {
 				const item = document.createElement('div');
 				item.className = 'service';
 				item.innerHTML = `
-          <h3 data-i18n=${i18next.t(`portfolio.projects.${i}.title`)}>
-							Certificado do curso de Introdução à Inteligência Artificial Generativa
-						</h3>
+          <h3>${i18next.t(`certificates.carousel.${i}.title`)}</h3>
 						<a
 							class="icon"
-							href="https://www.skills.google/public_profiles/6c9bab69-6090-458a-bf56-de1248b18c8e/badges/23751369"
+							href="${certificate.link}"
 							target="_blank"
 						>
 							<img
-								src="images/certificados/Introduction-to-Gen-AI.png"
-								alt="Badge do curso de Introdução a Gen AI"
+								src="${certificate.imagePath}"
+								alt="${certificate.imageDescription}"
 							/>
 						</a>
         `;
 				certificatesList.appendChild(item);
 			});
+			setTimeout(() => {
+				const $ = window.jQuery;
+
+				$('#owl-slider').owlCarousel({
+					navigation: true,
+					pagination: true,
+					itemsCustom: [
+						[0, 1],
+						[1100, 2],
+					],
+					navigationText: false,
+					autoHeight: true,
+				});
+			}, 0);
+			
 		})
 		.catch((error) => console.error(error));
 }

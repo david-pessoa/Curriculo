@@ -5,7 +5,7 @@
  * -------------------------------------------------------------------
  */
 
-import { loadProjectsList } from './projects-list.js';
+import { loadProjectsList, loadCertificatesList } from './loadLists.js';
 import { changeLanguage } from './i18n.js';
 
 (function ($) {
@@ -47,28 +47,13 @@ import { changeLanguage } from './i18n.js';
 	/*---------------------------------------------------- */
 	/* Inserção de conteúdo do JSON no HTML
 	------------------------------------------------------ */
-
 	loadProjectsList();
+	loadCertificatesList();
 
 	/*---------------------------------------------------- */
 	/* FitVids
 	------------------------------------------------------ */
 	$('.fluid-video-wrapper').fitVids();
-
-	/*---------------------------------------------------- */
-	/* Owl Carousel
-	------------------------------------------------------ */
-	$('#owl-slider').owlCarousel({
-		navigation: true,
-		pagination: true,
-		loop: true,
-		itemsCustom: [
-			[0, 1],
-			[1100, 2],
-		],
-		navigationText: false,
-		autoHeight: true,
-	});
 
 	/*----------------------------------------------------- */
 	/* Alert Boxes
@@ -275,3 +260,5 @@ import { changeLanguage } from './i18n.js';
 		}
 	});
 })(jQuery);
+
+

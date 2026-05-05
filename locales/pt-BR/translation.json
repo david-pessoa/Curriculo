@@ -140,35 +140,35 @@
 		"title": "Meus Certificados",
 		"carousel": [
 			{
-				"titulo": "Certificado do curso de Introdução à Inteligência Artificial Generativa",
+				"title": "Certificado do curso de Introdução à Inteligência Artificial Generativa",
 				"imageDescription": "Badge do curso de Introdução a Gen AI"
 			},
 			{
-				"titulo": "Certificado do curso de Introdução aos Large Language Models",
+				"title": "Certificado do curso de Introdução aos Large Language Models",
 				"imageDescription": "Badge do curso de Introdução aos LLMs"
 			},
 			{
-				"titulo": "Certificado do curso Programando Back-end .NET com C#",
+				"title": "Certificado do curso Programando Back-end .NET com C#",
 				"imageDescription": "Certificado Curso Back-end .NET"
 			},
 			{
-				"titulo": "Certificado do curso de Programação em Python com Django",
+				"title": "Certificado do curso de Programação em Python com Django",
 				"imageDescription": "Certificado Curso de Django"
 			},
 			{
-				"titulo": "Certificado de Proficiência Eficaz C1 em Inglês EF SET",
+				"title": "Certificado de Proficiência Eficaz C1 em Inglês EF SET",
 				"imageDescription": "Certificado de Inglês da EFSET"
 			},
 			{
-				"titulo": "Certificado do curso de IA para Todos (Movimento IA Brasil)",
+				"title": "Certificado do curso de IA para Todos (Movimento IA Brasil)",
 				"imageDescription": "Certificado do curso IA para todos"
 			},
 			{
-				"titulo": "Certificado do curso de Residência de Software do Mackleaps",
+				"title": "Certificado do curso de Residência de Software do Mackleaps",
 				"imageDescription": "Certificado Mackleaps"
 			},
 			{
-				"titulo": "Certificado de Monitoria em Algoritmos e Programação II",
+				"title": "Certificado de Monitoria em Algoritmos e Programação II",
 				"imageDescription": "Certificado da Monitoria"
 			}
 		]

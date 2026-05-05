@@ -76,7 +76,7 @@ export function loadProjectPage() {
 			if (data.length < projectId) returnHome();
 
 			// Carrega boxes com os projetos dinamicamente
-			const project = data[projectId - 1];
+			const project = data.projetos[projectId - 1];
 
 			const skillsList = project.skills.split(';');
 			skillsList.map((skill) => {
