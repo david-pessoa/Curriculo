@@ -42,7 +42,7 @@ function initializeSwiper() {
 	const swiper = new Swiper('.swiper', {
 		// Optional parameters
 		direction: 'horizontal',
-		slidesPerView: 2,
+		slidesPerView: 'auto',
 		centeredSlides: false,
 		loop: true,
 
@@ -57,12 +57,12 @@ function initializeSwiper() {
 			600: {
 				slidesPerView: 'auto',
 				spaceBetween: 50,
-				centeredSlides: true,
+				centeredSlides: false,
 			},
 			300: {
 				slidesPerView: 'auto',
 				spaceBetween: 30,
-				centeredSlides: true,
+				centeredSlides: false,
 			},
 		},
 
