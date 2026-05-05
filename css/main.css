@@ -2391,7 +2391,6 @@ a[title='Download CV'].button.button-primary {
 	height: 1.4rem;
 	width: 1.4rem;
 	margin: 0 8px !important;
-	margin-top: 60px !important;
 	background-color: var(--blue);
 }
 .swiper-button-prev,
@@ -2401,11 +2400,15 @@ a[title='Download CV'].button.button-primary {
 }
 
 .swiper-button-prev:hover,
-.swiper-button-next:hover,
+.swiper-button-next:hover {
+	background-color: transparent;
+	color: rgba(255, 255, 255, 0.418) !important;
+}
+
 .swiper-button-prev:focus,
 .swiper-button-next:focus {
 	background-color: transparent;
-	color: rgba(255, 255, 255, 0.418) !important;
+	color: #fff;
 }
 
 /**

@@ -83,10 +83,16 @@
 	],
 	"certificados": [
 		{
-			"titulo": "Certificado do curso de Introdução à Inteligência Artificial Generativa",
-			"link": "https://www.skills.google/public_profiles/6c9bab69-6090-458a-bf56-de1248b18c8e/badges/23751369",
-			"imagePath": "images/certificados/Introduction-to-Gen-AI.png",
-			"imageDescription": "Badge do curso de Introdução a Gen AI"
+			"titulo": "Criação de comandos no Vertex AI",
+			"link": "https://www.credly.com/badges/30bb66b0-083a-4aaa-aa09-aea865b9671c/public_url",
+			"imagePath": "images/certificados/Criacao-de-comandos-no-vertex-AI.png",
+			"imageDescription": "Badge do curso de Criação de comandos no Vertex AI"
+		},
+		{
+			"titulo": "IA responsável: como aplicar os princípios de IA com o Google Cloud",
+			"link": "https://www.skills.google/public_profiles/6c9bab69-6090-458a-bf56-de1248b18c8e/badges/23980417",
+			"imagePath": "images/certificados/Aplicando-principios-de-IA.png",
+			"imageDescription": "Badge do curso Aplicando princípios de IA com Google Cloud"
 		},
 		{
 			"titulo": "Certificado do curso de Introdução aos Large Language Models",

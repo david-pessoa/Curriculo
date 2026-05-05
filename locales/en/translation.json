@@ -140,12 +140,16 @@
 		"title": "My Certificates",
 		"carousel": [
 			{
-				"title": "Certificate of Completion - Introduction to Generative AI",
-				"imageDescription": "Introduction to Gen AI Badge"
+				"title": "Prompt Design in Vertex AI Badge",
+				"imageDescription": "Prompt Design in Vertex AI Skill Badge"
 			},
 			{
-				"title": "Certificate of Completion - Introduction to Large Language Models",
-				"imageDescription": "Introduction to Large Language Models Badge"
+				"title": "Applying AI Principles with Google Cloud Badge",
+				"imageDescription": "Applying AI Principles with Google Cloud Completion Badge"
+			},
+			{
+				"title": "Introduction to Large Language Models Badge",
+				"imageDescription": "Introduction to Large Language Models Completion Badge"
 			},
 			{
 				"title": "Certificate of Completion - Programming Back-end .NET with C#",

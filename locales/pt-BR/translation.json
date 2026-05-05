@@ -140,8 +140,12 @@
 		"title": "Meus Certificados",
 		"carousel": [
 			{
-				"title": "Certificado do curso de Introdução à Inteligência Artificial Generativa",
-				"imageDescription": "Badge do curso de Introdução a Gen AI"
+				"title": "Criação de comandos no Vertex AI",
+				"imageDescription": "Badge do curso de Criação de comandos no Vertex AI"
+			},
+			{
+				"title": "IA responsável: como aplicar os princípios de IA com o Google Cloud",
+				"imageDescription": "Badge do curso Aplicando princípios de IA com Google Cloud"
 			},
 			{
 				"title": "Certificado do curso de Introdução aos Large Language Models",

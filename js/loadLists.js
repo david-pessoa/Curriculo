@@ -42,7 +42,7 @@ function initializeSwiper() {
 	const swiper = new Swiper('.swiper', {
 		// Optional parameters
 		direction: 'horizontal',
-		slidesPerView: 'auto',
+		slidesPerView: 2,
 		centeredSlides: false,
 		loop: true,
 
