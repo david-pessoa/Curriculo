@@ -38,22 +38,10 @@ import { changeLanguage } from './i18n.js';
 	//$('#menu-button').text = 'MENU';
 
 	/*---------------------------------------------------- */
-	/* FitText Settings
-  	------------------------------------------------------ */
-	setTimeout(function () {
-		$('#intro h1').fitText(1, { minFontSize: '42px', maxFontSize: '84px' });
-	}, 100);
-
-	/*---------------------------------------------------- */
 	/* Inserção de conteúdo do JSON no HTML
 	------------------------------------------------------ */
 	loadProjectsList();
 	loadCertificatesList();
-
-	/*---------------------------------------------------- */
-	/* FitVids
-	------------------------------------------------------ */
-	$('.fluid-video-wrapper').fitVids();
 
 	/*----------------------------------------------------- */
 	/* Alert Boxes
@@ -65,34 +53,34 @@ import { changeLanguage } from './i18n.js';
 	/*----------------------------------------------------- */
 	/* Stat Counter
   	------------------------------------------------------- */
-	var statSection = $('#stats'),
-		stats = $('.stat-count');
+	// var statSection = $('#stats'),
+	// 	stats = $('.stat-count');
 
-	statSection.waypoint({
-		handler: function (direction) {
-			if (direction === 'down') {
-				stats.each(function () {
-					var $this = $(this);
+	// statSection.waypoint({
+	// 	handler: function (direction) {
+	// 		if (direction === 'down') {
+	// 			stats.each(function () {
+	// 				var $this = $(this);
 
-					$({ Counter: 0 }).animate(
-						{ Counter: $this.text() },
-						{
-							duration: 4000,
-							easing: 'swing',
-							step: function (curValue) {
-								$this.text(Math.ceil(curValue));
-							},
-						}
-					);
-				});
-			}
+	// 				$({ Counter: 0 }).animate(
+	// 					{ Counter: $this.text() },
+	// 					{
+	// 						duration: 4000,
+	// 						easing: 'swing',
+	// 						step: function (curValue) {
+	// 							$this.text(Math.ceil(curValue));
+	// 						},
+	// 					}
+	// 				);
+	// 			});
+	// 		}
 
-			// trigger once only
-			this.destroy();
-		},
+	// 		// trigger once only
+	// 		this.destroy();
+	// 	},
 
-		offset: '90%',
-	});
+	// 	offset: '90%',
+	// });
 
 	/*---------------------------------------------------- */
 	/*	Masonry

@@ -36,8 +36,46 @@ export async function loadProjectsList() {
 		.catch((error) => console.error(error));
 }
 
+// Inicia o Swiper
+function initializeSwiper() {
+	// Lógica do Carrossel de depoimentos
+	const swiper = new Swiper('.swiper', {
+		// Optional parameters
+		direction: 'horizontal',
+		slidesPerView: 'auto',
+		centeredSlides: false,
+		loop: true,
+
+		// If we need pagination
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+
+		// using "ratio" endpoints
+		breakpoints: {
+			600: {
+				slidesPerView: 'auto',
+				spaceBetween: 50,
+				centeredSlides: true,
+			},
+			300: {
+				slidesPerView: 'auto',
+				spaceBetween: 30,
+				centeredSlides: true,
+			},
+		},
+
+		// Navigation arrows
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+	});
+}
+
 export async function loadCertificatesList() {
-	const certificatesList = document.getElementById('owl-slider');
+	const certificatesList = document.getElementById('certificatesList');
 	if (!certificatesList) {
 		console.log('deu ruim');
 		return;
@@ -59,7 +97,7 @@ export async function loadCertificatesList() {
 			const certificates = data.certificados;
 			certificates.map((certificate, i) => {
 				const item = document.createElement('div');
-				item.className = 'service';
+				item.className = 'swiper-slide';
 				item.innerHTML = `
           <h3>${i18next.t(`certificates.carousel.${i}.title`)}</h3>
 						<a
@@ -75,21 +113,7 @@ export async function loadCertificatesList() {
         `;
 				certificatesList.appendChild(item);
 			});
-			setTimeout(() => {
-				const $ = window.jQuery;
-
-				$('#owl-slider').owlCarousel({
-					navigation: true,
-					pagination: true,
-					itemsCustom: [
-						[0, 1],
-						[1100, 2],
-					],
-					navigationText: false,
-					autoHeight: true,
-				});
-			}, 0);
-			
+			initializeSwiper();
 		})
 		.catch((error) => console.error(error));
 }
