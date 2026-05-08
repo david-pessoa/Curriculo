@@ -5,7 +5,7 @@
  * -------------------------------------------------------------------
  */
 
-import { loadProjectsList, loadCertificatesList } from './loadLists.js';
+import { loadProjectsList, loadCertificatesList, loadSkillsList } from './loadLists.js';
 import { changeLanguage } from './i18n.js';
 
 (function ($) {
@@ -40,6 +40,7 @@ import { changeLanguage } from './i18n.js';
 	/*---------------------------------------------------- */
 	/* Inserção de conteúdo do JSON no HTML
 	------------------------------------------------------ */
+	loadSkillsList();
 	loadProjectsList();
 	loadCertificatesList();
 

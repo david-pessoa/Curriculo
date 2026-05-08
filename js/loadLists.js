@@ -76,10 +76,7 @@ function initializeSwiper() {
 
 export async function loadCertificatesList() {
 	const certificatesList = document.getElementById('certificatesList');
-	if (!certificatesList) {
-		console.log('deu ruim');
-		return;
-	}
+	if (!certificatesList) return;
 
 	certificatesList.innerHTML = '';
 
@@ -93,7 +90,7 @@ export async function loadCertificatesList() {
 			return response.json();
 		})
 		.then((data) => {
-			// Carrega boxes com os projetos dinamicamente
+			// Carrega lista de certificados do carrossel dinamicamente
 			const certificates = data.certificados;
 			certificates.map((certificate, i) => {
 				const item = document.createElement('div');
@@ -114,6 +111,48 @@ export async function loadCertificatesList() {
 				certificatesList.appendChild(item);
 			});
 			initializeSwiper();
+		})
+		.catch((error) => console.error(error));
+}
+
+export async function loadSkillsList() {
+	const frontSkillsList = document.getElementById('frontSkillsList');
+	const backSkillsList = document.getElementById('backSkillsList');
+	
+	if (!frontSkillsList) return;
+
+	frontSkillsList.innerHTML = '';
+
+	fetch('./dados.json')
+		.then((response) => {
+			if (!response.ok) {
+				throw new Error(
+					'Erro ao carregar o JSON com certificados: ' + response.status
+				);
+			}
+			return response.json();
+		})
+		.then((data) => {
+			// Carrega lista de ícones de skills dinamicamente
+			const skillsFront = data.skills.front;
+			const skillsBack = data.skills.back;
+
+			skillsFront.map((skillIcon, i) => {
+				const item = document.createElement('li');
+				item.innerHTML = `
+          <img src="${skillIcon.iconPath}" alt="${skillIcon.name}" />
+					<h6>${skillIcon.name}</h6>
+        `;
+				frontSkillsList.appendChild(item);
+			});
+			skillsBack.map((skillIcon, i) => {
+				const item = document.createElement('li');
+				item.innerHTML = `
+          <img src="${skillIcon.iconPath}" alt="${skillIcon.name}" />
+					<h6>${skillIcon.name}</h6>
+        `;
+				backSkillsList.appendChild(item);
+			});
 		})
 		.catch((error) => console.error(error));
 }
