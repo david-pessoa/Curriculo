@@ -5,7 +5,12 @@
  * -------------------------------------------------------------------
  */
 
-import { loadProjectsList, loadCertificatesList, loadSkillsList } from './loadLists.js';
+import {
+	loadProjectsList,
+	loadCertificatesList,
+	loadSkillsList,
+} from './loadLists.js';
+import { loadComponent } from './loadComponents.js';
 import { changeLanguage } from './i18n.js';
 
 (function ($) {
@@ -43,6 +48,10 @@ import { changeLanguage } from './i18n.js';
 	loadSkillsList();
 	loadProjectsList();
 	loadCertificatesList();
+
+	// Carrega componentes
+	loadComponent('header', './components/header.html');
+	loadComponent('section#contact', './components/contact.html');
 
 	/*----------------------------------------------------- */
 	/* Alert Boxes
@@ -114,44 +123,40 @@ import { changeLanguage } from './i18n.js';
 	/*-----------------------------------------------------*/
 	/* Navigation Menu
    ------------------------------------------------------ */
-	var toggleButton = $('.menu-toggle'),
-		nav = $('.main-navigation');
-
-	// toggle button
-	toggleButton.on('click', function (e) {
+	// Toggle do menu
+	$(document).on('click', '.menu-toggle', function (e) {
 		e.preventDefault();
-		toggleButton.toggleClass('is-clicked');
-		nav.slideToggle();
+
+		$('.menu-toggle').toggleClass('is-clicked');
+
+		$('.main-navigation').slideToggle();
 	});
 
-	// nav items
-	nav.find('li a').on('click', function () {
-		// update the toggle button
-		toggleButton.toggleClass('is-clicked');
-		// fadeout the navigation panel
-		nav.fadeOut();
+	// Clique nos links do menu
+	$(document).on('click', '.main-navigation li a', function () {
+		$('.menu-toggle').removeClass('is-clicked');
+
+		$('.main-navigation').fadeOut();
 	});
 
 	/*---------------------------------------------------- */
 	/* Highlight the current section in the navigation bar
   	------------------------------------------------------ */
-	var sections = $('section'),
-		navigation_links = $('#main-nav-wrap li a');
+	const sections = $('section');
 
 	sections.waypoint({
 		handler: function (direction) {
-			var active_section;
+			let activeSection = $(this.element);
 
-			active_section = $('section#' + this.element.id);
+			if (direction === 'up') {
+				activeSection = activeSection.prevAll('section').first();
+			}
 
-			if (direction === 'up') active_section = active_section.prev();
+			const sectionId = activeSection.attr('id');
 
-			var active_link = $(
-				'#main-nav-wrap a[href="#' + active_section.attr('id') + '"]'
-			);
+			$('#main-nav-wrap li').removeClass('current');
 
-			navigation_links.parent().removeClass('current');
-			active_link.parent().addClass('current');
+			$(`#main-nav-wrap a[href="#${sectionId}"]`).parent().addClass('current');
 		},
 
 		offset: '25%',
@@ -160,11 +165,11 @@ import { changeLanguage } from './i18n.js';
 	/*---------------------------------------------------- */
 	/* Smooth Scrolling
   	------------------------------------------------------ */
-	$('.smoothscroll').on('click', function (e) {
+	$(document).on('click', '.smoothscroll', function (e) {
 		e.preventDefault();
 
-		var target = this.hash,
-			$target = $(target);
+		const target = this.hash;
+		const $target = $(target);
 
 		if ($target.offset()) {
 			$('html, body')
@@ -249,5 +254,3 @@ import { changeLanguage } from './i18n.js';
 		}
 	});
 })(jQuery);
-
-
