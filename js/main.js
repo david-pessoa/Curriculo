@@ -50,8 +50,18 @@ import { changeLanguage } from './i18n.js';
 	loadCertificatesList();
 
 	// Carrega componentes
-	loadComponent('header', './components/header.html');
-	loadComponent('section#contact', './components/contact.html');
+	async function initializeApp() {
+		if (window.location.pathname === '/') {
+			await loadComponent('header', './components/header.html');
+			await loadComponent('section#contact', './components/contact.html');
+		} else {
+			await loadComponent('header', '../components/header.html');
+			await loadComponent('section#contact', '../components/contact.html');
+		}
+
+		initializeWaypoints();
+	}
+	initializeApp();
 
 	/*----------------------------------------------------- */
 	/* Alert Boxes
@@ -142,25 +152,29 @@ import { changeLanguage } from './i18n.js';
 	/*---------------------------------------------------- */
 	/* Highlight the current section in the navigation bar
   	------------------------------------------------------ */
-	const sections = $('section');
+	function initializeWaypoints() {
+		$('section').waypoint({
+			handler: function (direction) {
+				let activeSection = $(this.element);
+				if (direction === 'up') {
+					activeSection = activeSection.prevAll('section').first();
+				}
 
-	sections.waypoint({
-		handler: function (direction) {
-			let activeSection = $(this.element);
+				if (!activeSection.length) return;
 
-			if (direction === 'up') {
-				activeSection = activeSection.prevAll('section').first();
-			}
+				const sectionId = activeSection.attr('id');
 
-			const sectionId = activeSection.attr('id');
+				$('#main-nav-wrap li').removeClass('current');
+				console.log(sectionId);
 
-			$('#main-nav-wrap li').removeClass('current');
+				$(`#main-nav-wrap a[href="/#${sectionId}"]`)
+					.parent()
+					.addClass('current');
+			},
 
-			$(`#main-nav-wrap a[href="#${sectionId}"]`).parent().addClass('current');
-		},
-
-		offset: '25%',
-	});
+			offset: '50%',
+		});
+	}
 
 	/*---------------------------------------------------- */
 	/* Smooth Scrolling
